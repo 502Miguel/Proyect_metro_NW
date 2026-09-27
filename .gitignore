@@ -1,8 +1,16 @@
-# Compiled Form Modules
-*.fmx
+# Archivos temporales y de bloqueo de Oracle Data Modeler
+*.vrb
+*.bak
+*.tmp
+*.log
+*.lck
+~*
 
-# Compiled Menu Modules
-*.mmx
+# Carpetas de configuración del sistema/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
 
-# Compiled Pre-Linked Libraries
-*.plx
+# Configuración de usuario de SQL Developer (no deben compartirse entre miembros)
+system*/
