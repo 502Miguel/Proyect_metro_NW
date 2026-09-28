@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B871AE27-074E-7CFB-23A6-46CF84CA9A90">
-<createdBy>Asistente Sistemas</createdBy>
-<createdTime>2026-09-28 16:45:00 UTC</createdTime>
-<ownerDesignName>metro_mode_nwl</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

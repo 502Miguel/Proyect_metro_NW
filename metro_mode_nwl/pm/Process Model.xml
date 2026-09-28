@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="DA79FC8E-0C91-0C1A-E456-941CD555A2E6">
-<createdBy>Asistente Sistemas</createdBy>
-<createdTime>2026-09-28 16:45:00 UTC</createdTime>
-<ownerDesignName>metro_mode_nwl</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
