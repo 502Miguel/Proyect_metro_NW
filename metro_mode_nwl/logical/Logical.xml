@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C15B9853-F0C6-7940-0BF5-A4DD0CFC9F13" mainViewID="AE6024B6-EDD4-4C67-5DC3-CE5256B14B1B">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-09-28 16:45:00 UTC</createdTime>
+<ownerDesignName>metro_mode_nwl</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

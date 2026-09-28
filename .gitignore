@@ -14,3 +14,7 @@ Thumbs.db
 
 # Configuración de usuario de SQL Developer (no deben compartirse entre miembros)
 system*/
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store
