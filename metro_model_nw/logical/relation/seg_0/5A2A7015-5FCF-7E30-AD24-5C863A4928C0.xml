@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacion" directorySegmentName="seg_0" id="5A2A7015-5FCF-7E30-AD24-5C863A4928C0">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:12:29 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<sourcePk>57971384-60AC-CF5B-6424-9D238DF3B4E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA0594D5-85D7-2183-D840-6349EF260E0C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7391FBDC-CF2A-306F-B717-EB1BFF3CFCC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

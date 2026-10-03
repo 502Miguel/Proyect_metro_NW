@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD332E66-F783-23AC-B7F2-2865CB176B07" name="TRANSFERENCIA">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 22:54:11 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TRANSFERENCIA" id="0DA61932-C109-C493-561B-331AC57B909D">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 22:54:26 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIEMPO_CAMBIO_MIN" id="1813B320-2624-842A-62E2-CE657FABF8C7">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 22:54:53 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCESIBLE_DISCAPACIDAD" id="4876329B-66CA-EBF2-4F49-60FE0D0311A0">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 22:55:30 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTACION" id="F9DD0E91-310D-51D0-6BF2-CDCB62EABB20">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:14:25 UTC</createdTime>
+<generatorID>41E64502-6063-DEE2-3440-2D79AF422863</generatorID>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<referedAttribute>6BD6A77F-14CA-4269-1DF5-F5F14E31C4D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_LINEA" id="408CD535-089E-A633-73B2-3C7508D1B093">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:16:17 UTC</createdTime>
+<generatorID>47F9C21E-5837-08D1-42AF-AC82E773E130</generatorID>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<referedAttribute>1485DB99-28CC-B380-25F4-DEE88344906B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="663A1548-E188-51F9-F6DE-04FEBDA03AF4" name="TRANSFERENCIA PK">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 22:54:51 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DA61932-C109-C493-561B-331AC57B909D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
