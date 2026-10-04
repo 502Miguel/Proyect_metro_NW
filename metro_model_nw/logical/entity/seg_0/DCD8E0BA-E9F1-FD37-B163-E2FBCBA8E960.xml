@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCD8E0BA-E9F1-FD37-B163-E2FBCBA8E960" name="RUTA">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:55:51 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_RUTA" id="7090742B-88E9-502B-3243-9EF8230B2999">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:56:01 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENTIDO" id="24D8DA71-7CA1-FB7E-0D4F-82506F861A4C">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:56:39 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_SERVICIO" id="D1EB9543-D41E-B3A0-B8F0-ECA367A2A5B2">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:57:05 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISTANCIA_TOTAL_KM" id="8F3D928C-7558-9347-3C68-46B7E02668A3">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:57:27 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURACION_ESTIMADA_MIN" id="3D3C818B-0C38-A6E9-83C2-1CCBE1E59E74">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:58:05 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="4FBC6C99-F6DD-D800-D522-1A3BCE27264B">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:58:43 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_VIGENCIA_INICIO" id="F1674C09-F7C1-3AA0-86AE-16A00654B575">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:59:17 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_VIGENCIA_FIN" id="60AE3294-7F12-E9D5-5327-D070CF8E19AE">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:59:41 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_LINEA" id="2150DD2E-4444-DCFE-64D1-3E7935214CA2">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 00:00:36 UTC</createdTime>
+<generatorID>B717F645-6560-6687-CF74-CBAB72CE81F3</generatorID>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<referedAttribute>1485DB99-28CC-B380-25F4-DEE88344906B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTACION" id="58B04EF1-029B-FE11-81F1-6FAD8F07BD1E">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 00:02:43 UTC</createdTime>
+<generatorID>BF26C59F-CB70-4F59-3AD0-25CE201461AD</generatorID>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<referedAttribute>6BD6A77F-14CA-4269-1DF5-F5F14E31C4D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F5DF0A2-0236-64E7-D961-430E0C0238D9" name="RUTA PK">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-03 23:56:22 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7090742B-88E9-502B-3243-9EF8230B2999</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
