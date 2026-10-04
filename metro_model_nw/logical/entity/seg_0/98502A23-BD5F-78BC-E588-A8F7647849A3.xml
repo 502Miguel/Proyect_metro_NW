@@ -74,7 +74,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_ESTACION" id="434B4D06-B77C-ED92-04C1-BBCD1309A31E">
 <createdBy>Asistente Sistemas</createdBy>
@@ -86,7 +86,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -103,17 +103,17 @@
 <createdBy>Asistente Sistemas</createdBy>
 <createdTime>2026-10-04 00:21:36 UTC</createdTime>
 <ownerDesignName>metro_model_nw</ownerDesignName>
-<newElementsIDs>69DBE081-5075-B11C-58D0-996B37E94786,E5346A6B-E81B-E204-821A-EEC4D68E8C1A</newElementsIDs>
+<newElementsIDs>E5346A6B-E81B-E204-821A-EEC4D68E8C1A,69DBE081-5075-B11C-58D0-996B37E94786</newElementsIDs>
 <usedAttributes>
-<attributeRef>69DBE081-5075-B11C-58D0-996B37E94786</attributeRef>
 <attributeRef>E5346A6B-E81B-E204-821A-EEC4D68E8C1A</attributeRef>
+<attributeRef>69DBE081-5075-B11C-58D0-996B37E94786</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="09366C7A-6C06-9AC1-3618-6ADBD428A238" name="UK_RUTA_ESTACION">
 <createdBy>Asistente Sistemas</createdBy>
 <createdTime>2026-10-04 00:23:12 UTC</createdTime>
 <ownerDesignName>metro_model_nw</ownerDesignName>
-<newElementsIDs>69DBE081-5075-B11C-58D0-996B37E94786,6249A760-3BB0-108F-75D6-119A56CC772F</newElementsIDs>
+<newElementsIDs>69DBE081-5075-B11C-58D0-996B37E94786,434B4D06-B77C-ED92-04C1-BBCD1309A31E</newElementsIDs>
 <usedAttributes>
 <attributeRef>69DBE081-5075-B11C-58D0-996B37E94786</attributeRef>
 <attributeRef>434B4D06-B77C-ED92-04C1-BBCD1309A31E</attributeRef>

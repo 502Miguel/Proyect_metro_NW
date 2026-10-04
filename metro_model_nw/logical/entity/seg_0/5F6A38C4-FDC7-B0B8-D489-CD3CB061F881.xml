@@ -87,4 +87,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7ED8F74-D215-8298-A139-4BF434221C04" name="UK_HORARIO_RUTA_DIA">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:26:43 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<newElementsIDs>D5268225-FAAB-8C9A-2EBC-B6194718DE1E,1800D8F7-0794-59E5-AD7B-8843B02B1ECD,F39F2057-F63A-91E0-ED16-E69693CF0832</newElementsIDs>
+<usedAttributes>
+<attributeRef>D5268225-FAAB-8C9A-2EBC-B6194718DE1E</attributeRef>
+<attributeRef>1800D8F7-0794-59E5-AD7B-8843B02B1ECD</attributeRef>
+<attributeRef>C63F2D79-1E18-0C52-3F94-41CA30FF7390</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

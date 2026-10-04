@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="776019A4-0006-AF11-5E2A-F0AD08F176AC" name="EXCEPCION_HORARIO">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:45:06 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EXCEPCION" id="94F66BEA-A43F-59CD-1215-F6B7E62471C1">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:46:42 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_EXCEPCION" id="EDE791B5-10CC-C87A-A3C9-722FC8155162">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:47:07 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MOTIVO" id="99896C23-0D48-FD1F-3D09-CF3E09506034">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:47:28 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_AFECTACION" id="38B143CC-4478-0F00-6670-CA4CCC375F81">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:47:49 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_INICIO_ALTERADA" id="E93E4BF7-CFC7-F985-6F94-1288FCE9C492">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:48:09 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_FIN_ALTERADA" id="8B3FDDDD-B4F9-A401-33D9-7E01A5383632">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:48:30 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FRECUENCIA_ALTERADA_MIN" id="BF61FF3C-F365-5C0F-0DC7-9C597D36AEFE">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:48:43 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RUTA" id="64476A64-DB93-A86F-4A4D-7FDC0FB4B883">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:54:21 UTC</createdTime>
+<generatorID>134E0210-0BB7-7D32-43CC-599E8195B5BC</generatorID>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<referedAttribute>C63F2D79-1E18-0C52-3F94-41CA30FF7390</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_DIA" id="6EE8C825-DD4C-6675-ED77-7E6E791507BB">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:54:21 UTC</createdTime>
+<generatorID>134E0210-0BB7-7D32-43CC-599E8195B5BC</generatorID>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<referedAttribute>D5268225-FAAB-8C9A-2EBC-B6194718DE1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_INICIO" id="4968A723-5364-6839-9705-2BE4E3C17F6E">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:54:21 UTC</createdTime>
+<generatorID>134E0210-0BB7-7D32-43CC-599E8195B5BC</generatorID>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<referedAttribute>1800D8F7-0794-59E5-AD7B-8843B02B1ECD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E482230E-F504-55DC-FA7F-B798F47EC48C" name="EXCEPCION_HORARIO PK">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:47:04 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94F66BEA-A43F-59CD-1215-F6B7E62471C1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F841DE75-FE21-E394-730B-67E3A44AC908" name="UK_EXCEPCION_HORARIO_FECHA">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 02:55:10 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<newElementsIDs>134E0210-0BB7-7D32-43CC-599E8195B5BC,EDE791B5-10CC-C87A-A3C9-722FC8155162</newElementsIDs>
+<usedAttributes>
+<attributeRef>64476A64-DB93-A86F-4A4D-7FDC0FB4B883</attributeRef>
+<attributeRef>6EE8C825-DD4C-6675-ED77-7E6E791507BB</attributeRef>
+<attributeRef>4968A723-5364-6839-9705-2BE4E3C17F6E</attributeRef>
+<attributeRef>EDE791B5-10CC-C87A-A3C9-722FC8155162</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
