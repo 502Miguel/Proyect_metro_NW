@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62C980AB-B299-8830-E9BF-E4BEFC592C8B" name="CARGO">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 03:33:15 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CARGO" id="B4CE25B2-B594-5995-F276-BCA73E3E8DED">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 03:33:29 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CARGO" id="228B5F0D-B80D-6908-4308-442497DEA6E3">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 03:33:47 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="CB709043-AFE3-2B07-E274-6E7A873EAB52">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 03:34:01 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO_BASE" id="35FC737D-D2F4-B28F-0F4B-BB041D821310">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 03:34:18 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E140DB17-8D0E-1C05-B3B1-E3CDA47BCE8C" name="CARGO PK">
+<createdBy>Asistente Sistemas</createdBy>
+<createdTime>2026-10-04 03:33:41 UTC</createdTime>
+<ownerDesignName>metro_model_nw</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4CE25B2-B594-5995-F276-BCA73E3E8DED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
