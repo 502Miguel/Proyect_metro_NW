@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF91862B-8794-C0FD-5603-0FB4682EAB34" name="ORDEN_TECNICO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4002484B-7093-F8DF-B2FA-D4A4CC58D9C7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDEN" id="EBC8CC77-8923-464C-B34B-41E3EDBDB73E">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C43855D7-AB88-E573-1E2D-0B4D835BBA2F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E622D7AF-CBBA-1843-7F0C-F28CC4BE6E83" referredColumn="4E17384F-EAA7-AF1D-A2F2-6DEE2977DCB9"/>
+</associations>
+</Column>
+<Column name="ID_EMPLEADO" id="FAEA0121-ED24-200C-A4D5-2BAC7C957189">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C99A38A5-A3E3-84C0-8C44-4A37E17848AA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDECFBA0-9CA7-5F25-896C-4646C10BAF0F" referredColumn="A3F05823-32EA-1A45-9E58-CE44D7305E56"/>
+</associations>
+</Column>
+<Column name="HORAS_TRABAJADAS" id="140E5B74-E369-1411-546F-F03204DC76AA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>991DB52B-A45F-1942-237E-D17B8B318373</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6DA6051E-89E3-4A10-15B5-82C68E273AAB</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6645336-1BEF-EBBE-CA94-45B5B8295090" name="PK_ORDEN_TECNICO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>230456A5-5FDF-605A-CF65-FD9E2C918E67</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBC8CC77-8923-464C-B34B-41E3EDBDB73E"/>
+<colUsage columnID="FAEA0121-ED24-200C-A4D5-2BAC7C957189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A86BEA4-E175-9E7B-25C6-7C18CD149071" name="FK_ORDTEC_EMPLEADO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAEA0121-ED24-200C-A4D5-2BAC7C957189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38AF42B2-9830-9EEF-C619-40C5DA8A25C9" name="FK_ORDTEC_ORDEN">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBC8CC77-8923-464C-B34B-41E3EDBDB73E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_ORDTEC_HORAS" directorySegmentName="seg_1" id="26B29974-2C00-1284-7A0C-83E5ECEE52FB">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>48075E17-D411-ED60-DAA8-4B5F78BC9345</importedID>
+<rule><![CDATA[HORAS_TRABAJADAS >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

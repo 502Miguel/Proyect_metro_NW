@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TURNO_DEPOSITO" directorySegmentName="seg_0" id="123D0737-1F0F-DA69-4566-552FA644170C">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>E9993841-ADCD-0839-446F-FBC6105029EC</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>5A4137E4-AB79-0239-59C3-8E3FD3CA98B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>283D20D9-4007-C408-E67C-AA3EA0332709</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16F571E7-1038-0F2B-2DDF-3A5C841ED69B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="220B2F65-FF3B-3852-B92F-3AC4FA39CEF6" containerWithKeyObject="2F8C518B-4AEB-0B15-7F6A-D7693E735781" localFKIndex="082CA68B-2DE3-E0E1-5F81-9E259BA341D9" name="FK_ORDREP_REPUESTO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5D4C9EDD-2F2C-534B-A3D0-1EC88832676B</importedID>
+<referredTableLongName>REPUESTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2A792470-25BF-9431-67D9-2AED4CBC2E9F</referredTableID>
+<keyObject>ED2EC692-61BD-375C-0909-77DDCA1ABB15</keyObject>
+<referredKeyID>ED2EC692-61BD-375C-0909-77DDCA1ABB15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REPUESTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

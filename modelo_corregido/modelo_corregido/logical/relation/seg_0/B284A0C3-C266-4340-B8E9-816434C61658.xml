@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VIAJE_RUTA" directorySegmentName="seg_0" id="B284A0C3-C266-4340-B8E9-816434C61658">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>9737DF2B-6982-A7B1-E076-470922DF7016</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>E00C2EBA-C372-2C3B-F579-84D893353AE6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B51186D-597D-ED64-2846-40727EA76494</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9341D2B0-CADC-F35D-4D06-96BAD094256E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

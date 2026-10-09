@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EQUIPO_VAGON" directorySegmentName="seg_0" id="B9EAB222-34C9-F0F2-9CD6-D2FAD92E772C">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>3526EE63-FAEA-3FC4-9A12-023D6E55ACBE</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>346C8312-BEDF-0A37-E0EE-11F48F9C3C64</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AB92FFA-48A9-02A6-5DD3-E347907BE9C9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0ED2E41F-3843-060B-63C2-C67FE9EE8F03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

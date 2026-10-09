@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DETRUTA_ESTACION" directorySegmentName="seg_0" id="40FB6709-F772-F48F-CE9C-879B0B0E09BF">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>C5F49CB2-B1AD-52A7-8128-2F90B1D2926F</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>00EB2ABE-CBFE-88AF-8F61-49329FC2A3A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FD9A6BF-A6D9-892A-40A5-EC212AEDFB07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E5A7139-CAE9-1622-F4AC-CAE76A1DDF14</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

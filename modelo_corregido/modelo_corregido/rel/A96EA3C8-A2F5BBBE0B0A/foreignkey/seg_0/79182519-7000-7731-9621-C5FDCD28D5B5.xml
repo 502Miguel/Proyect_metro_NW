@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79182519-7000-7731-9621-C5FDCD28D5B5" containerWithKeyObject="2ADFBD20-B128-15F6-ADE1-A8BA750F4CD4" localFKIndex="D279EFBC-0B89-9B99-C2F2-CD095C8D74A5" name="FK_EMPLEADO_SUPERVISOR">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2C49DC9E-AC7A-8D82-83D8-87EA7123AC1D</importedID>
+<referredTableLongName>EMPLEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2ADFBD20-B128-15F6-ADE1-A8BA750F4CD4</referredTableID>
+<keyObject>7A79D8B2-EB8B-F858-A248-8BD0A0BD373F</keyObject>
+<referredKeyID>7A79D8B2-EB8B-F858-A248-8BD0A0BD373F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_EMPLEADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

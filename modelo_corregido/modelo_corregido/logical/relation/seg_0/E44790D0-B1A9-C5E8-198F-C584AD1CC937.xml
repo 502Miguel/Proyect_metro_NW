@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EMPLEADO_CARGO" directorySegmentName="seg_0" id="E44790D0-B1A9-C5E8-198F-C584AD1CC937">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>16198B8C-05A6-69C5-CBCD-18A184F23788</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>53ABC95D-E209-4164-10AD-5A9B4E014C21</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>32A8962B-5489-AD82-CD47-9DB8CC0FD5B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4391E942-E8FC-0428-8C5F-8BDB63028ACA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

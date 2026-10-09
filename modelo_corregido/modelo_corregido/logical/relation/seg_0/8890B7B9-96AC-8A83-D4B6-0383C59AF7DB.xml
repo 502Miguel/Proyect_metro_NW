@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EQUIPO_TREN" directorySegmentName="seg_0" id="8890B7B9-96AC-8A83-D4B6-0383C59AF7DB">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>F6C3AC8B-370D-EFC1-D9F2-39B894D780B8</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>DA94237E-5EB4-9881-00F1-A2C042A2DDEF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4800012-1C5A-16C2-7409-1CCA9E898185</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0ED2E41F-3843-060B-63C2-C67FE9EE8F03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

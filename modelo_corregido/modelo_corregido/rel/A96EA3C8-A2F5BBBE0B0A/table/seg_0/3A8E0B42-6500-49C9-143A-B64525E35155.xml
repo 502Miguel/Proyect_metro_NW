@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A8E0B42-6500-49C9-143A-B64525E35155" name="CERTIFICACION_MODELO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0FD390D8-D94F-FFFD-54A3-BE5D040EE4CB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CERTIFICACION" id="563ED811-E742-4E97-636E-35B703EFFFA5">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>759C1B9C-E53C-3370-88D1-7E1F84D61BA7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6E091BB-913A-B9BB-6C5E-BFE3F9DEE5F8" referredColumn="3DFFA6AF-3C05-B4C3-F9D6-E9AE34345069"/>
+</associations>
+</Column>
+<Column name="ID_MODELO" id="6B71DE42-91D8-EBB6-B2DF-D23539C32CA2">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EC25463B-6F18-193E-1C13-1DF83F959B8F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F6627A8-8B27-FA73-FF41-08C2FA2E6729" referredColumn="463051D6-834C-F20A-9195-9D369EBC7D1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9964E80C-5792-2A6F-9578-AFA6AAA38B29" name="PK_CERT_MODELO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>69FB0A01-03FD-8048-C404-78EC1A76367E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="563ED811-E742-4E97-636E-35B703EFFFA5"/>
+<colUsage columnID="6B71DE42-91D8-EBB6-B2DF-D23539C32CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="876EEDAB-A05C-0D78-6A91-984635B7E95B" name="FK_CERTMOD_CERT">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="563ED811-E742-4E97-636E-35B703EFFFA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88441129-B72A-6454-3D82-561B576EB55C" name="FK_CERTMOD_MODELO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B71DE42-91D8-EBB6-B2DF-D23539C32CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

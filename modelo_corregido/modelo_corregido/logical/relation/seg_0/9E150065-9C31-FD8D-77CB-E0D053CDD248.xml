@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TARJETA_PASAJERO" directorySegmentName="seg_0" id="9E150065-9C31-FD8D-77CB-E0D053CDD248">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>88FD743D-FEDC-A991-9261-AB6726F53F7E</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>017D552E-C35E-8246-96BB-6D6FBFA77BC9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C2B3539-3417-8B2B-97A9-F73313A0AAAA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5131488-1D8A-E07D-B808-097B7661C28C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

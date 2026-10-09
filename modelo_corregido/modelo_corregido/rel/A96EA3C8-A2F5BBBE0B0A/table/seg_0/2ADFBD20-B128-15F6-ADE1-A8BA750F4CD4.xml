@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ADFBD20-B128-15F6-ADE1-A8BA750F4CD4" name="EMPLEADO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>913742A8-CB3A-AE45-F2D6-12195A62DB81</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLEADO" id="A3F05823-32EA-1A45-9E58-CE44D7305E56">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F4777E0B-BDA2-BDED-3425-2BA2280EDCF6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NUMERO_EMPLEADO" id="CA150397-D0D6-88FA-0124-E9F60E76A6F0">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EC221B0E-0DBE-0283-2FF8-8606127459E9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2A02DB10-39DC-9BBC-0DE4-2902E91DDD2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="14FB6FA3-5F2E-D7EA-C826-41BCD33F220D">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C7EE9526-0AD9-25A3-79BD-A0523518AE2E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>74988DD0-7C20-A3A9-B8BC-AE35641F6616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="5E4A8276-D869-7E4A-D922-02FCA8B1E7F8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F52BBED5-D6DF-D698-C719-9A0A6C33ECCD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>74988DD0-7C20-A3A9-B8BC-AE35641F6616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="F525EC5B-38FF-2949-EBAD-91AF288E5BB1">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>36D00A53-6398-1356-131B-3ED95CD5A06B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="0FF7E154-61B7-7E5C-3A40-FEFA89C008EB">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>152FF392-617A-4FC7-C635-F53E81EE5415</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>14192929-F868-0C38-03DD-3BC806D98B73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="EFD73464-8E03-AD39-160F-8604453CAF5A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D1486DE1-EAE2-E2E0-C7CF-8162C8A9A152</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="5C8BD390-27A8-32F1-ADA6-8293AD06F674">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>87940B8D-FCE5-E666-D001-5861C8289269</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D3C2364F-EDA3-AC15-6FE5-A415CD297D48</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CONTRATACION" id="81616A54-69EE-8F15-3BAA-708AAEDC6CFC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EFE96410-E9B3-AEA7-1F86-CB549A3C6DEE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CARGO" id="824B464F-472A-A252-C544-9CE85C42CAD9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>50F0BAD3-D56B-86CA-0AF2-76A2F8FAD443</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16198B8C-05A6-69C5-CBCD-18A184F23788" referredColumn="0FBC5CCA-DA2C-F27A-51EA-BFC9D0FF0B07"/>
+</associations>
+</Column>
+<Column name="SALARIO" id="F49A4E0C-6F52-83D3-8D28-F1A2A8A8EB8D">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1DC40D08-465B-778C-A4D5-C147638161E6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EBEF6574-5A91-8151-A1B4-FD76AEA79107</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_LABORAL" id="F7F05C7A-65AD-DAAB-6830-73C06AB0B4F5">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>95763A8B-58B5-7086-F411-FDD79F4FF82C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUPERVISOR" id="37E5FD06-768F-A479-38C7-B315A31181B4">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A5E42FF8-1679-21F6-D423-F9E643C8E89E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79182519-7000-7731-9621-C5FDCD28D5B5" referredColumn="A3F05823-32EA-1A45-9E58-CE44D7305E56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A79D8B2-EB8B-F858-A248-8BD0A0BD373F" name="PK_EMPLEADO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>687C08EE-DA78-18F1-A0B1-BC5285B848DD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F05823-32EA-1A45-9E58-CE44D7305E56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C2B347-3840-B3E9-2C15-73CAAE206DC8" name="UQ_EMPLEADO_NUMERO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7CA0DB4D-AA82-4E81-92E1-1609F27FA5F6</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA150397-D0D6-88FA-0124-E9F60E76A6F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09343431-2BF0-C671-7122-0E8E7DAF7363" name="UQ_EMPLEADO_CORREO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E9EE26E4-B3D0-C56E-FB43-263BADD33F38</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C8BD390-27A8-32F1-ADA6-8293AD06F674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D600B44A-F998-B71A-5541-BA6E47C97DDA" name="FK_EMPLEADO_CARGO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="824B464F-472A-A252-C544-9CE85C42CAD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D279EFBC-0B89-9B99-C2F2-CD095C8D74A5" name="FK_EMPLEADO_SUPERVISOR">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E5FD06-768F-A479-38C7-B315A31181B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_EMPLEADO_SUPERVISOR" directorySegmentName="seg_0" id="A36821CD-92F8-F099-5594-F9E70C1CF220">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A4908895-B3FC-0E9C-B1B7-A06B39CD5DDF</importedID>
+<rule><![CDATA[ID_SUPERVISOR IS NULL OR ID_SUPERVISOR <> ID_EMPLEADO]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EMPLEADO_ESTADO" directorySegmentName="seg_0" id="A27841CD-5893-1B48-14AA-80EA431A72DE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B999C0B4-22C2-A6DF-FF5D-3597A7F7B08D</importedID>
+<rule><![CDATA[ESTADO_LABORAL IN ('ACTIVO','SUSPENDIDO','DE_BAJA','JUBILADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EMPLEADO_SALARIO" directorySegmentName="seg_0" id="8265F66B-7BB8-B61E-EF54-22CFA9EA0240">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B41A1687-69CE-1A6C-4188-332663A780B2</importedID>
+<rule><![CDATA[SALARIO > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EMPLEADO_FECHAS" directorySegmentName="seg_0" id="62CE76D1-DCC8-E7F2-C498-74773FE44C0F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>55282AD1-F1DB-843C-15BE-7740CBFFF82E</importedID>
+<rule><![CDATA[FECHA_CONTRATACION > FECHA_NACIMIENTO]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EMPLEADO_CORREO" directorySegmentName="seg_0" id="C219EE0B-7804-53E3-96E3-39B46119D221">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>035487CE-D9C5-4BB4-4EDA-8BED4E155675</importedID>
+<rule><![CDATA[CORREO IS NULL OR CORREO LIKE '%_@_%._%']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

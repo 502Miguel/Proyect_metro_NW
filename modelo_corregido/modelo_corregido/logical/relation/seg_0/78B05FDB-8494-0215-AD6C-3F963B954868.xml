@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_COMPOS_VAGON" directorySegmentName="seg_0" id="78B05FDB-8494-0215-AD6C-3F963B954868">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>A705EE4F-CC76-9B0D-DB88-BB9D15C96474</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>346C8312-BEDF-0A37-E0EE-11F48F9C3C64</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AB92FFA-48A9-02A6-5DD3-E347907BE9C9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62756462-D73D-AB42-7C9B-75AB62E82855</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

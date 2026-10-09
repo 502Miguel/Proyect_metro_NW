@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F8C518B-4AEB-0B15-7F6A-D7693E735781" name="ORDEN_REPUESTO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5F23D5C9-2FAF-4970-CC2D-DD5BBA597215</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDEN" id="E920EAA9-03B3-D336-126A-2E983560FF07">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>76301D5A-20D2-9C98-B03C-3F7CDC545844</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2CFB3AF-18DD-B96A-ADF3-221ECE309717" referredColumn="4E17384F-EAA7-AF1D-A2F2-6DEE2977DCB9"/>
+</associations>
+</Column>
+<Column name="ID_REPUESTO" id="4CD77E8D-3DA4-4FD2-F051-43CF43A9FD2C">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AE97C89E-8472-9A7C-B1BF-C161E7D5BAE5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="220B2F65-FF3B-3852-B92F-3AC4FA39CEF6" referredColumn="4B05870E-657D-5257-A55B-61E0DC9A1C92"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="7A28A161-5A5D-88B0-9E71-0C97C9E7748F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>9EF565C5-9A37-73EB-1146-CB04A28006DC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>70124D63-BF51-400F-08F6-7DA80E086332</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO_UNITARIO" id="908DE1DC-5E02-1CFC-AB78-F8394C765D8A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E9453226-CA5D-4937-D4C1-A173DA0D9EDE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EBEF6574-5A91-8151-A1B4-FD76AEA79107</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D453A6BB-0B8E-5F33-3EE7-8F35F4BE25C9" name="PK_ORDEN_REPUESTO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>26380069-4D34-DB61-8733-9F8B2E638E4E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E920EAA9-03B3-D336-126A-2E983560FF07"/>
+<colUsage columnID="4CD77E8D-3DA4-4FD2-F051-43CF43A9FD2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F5FEF4D-2C68-1904-6FDC-1E536044F857" name="FK_ORDREP_ORDEN">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E920EAA9-03B3-D336-126A-2E983560FF07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="082CA68B-2DE3-E0E1-5F81-9E259BA341D9" name="FK_ORDREP_REPUESTO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CD77E8D-3DA4-4FD2-F051-43CF43A9FD2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_ORDREP_CANTIDAD" directorySegmentName="seg_0" id="3B227CC2-B05A-980B-2EBD-D4CD81474143">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2750CA38-D5B1-DA71-5ACC-2A4EFB80A6D1</importedID>
+<rule><![CDATA[CANTIDAD > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ORDREP_COSTO" directorySegmentName="seg_0" id="F9E14DF4-1E61-B6AD-45EF-34DFB51E0AD8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4C7C8F90-4B39-232D-0931-0DF7DFBE1108</importedID>
+<rule><![CDATA[COSTO_UNITARIO >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

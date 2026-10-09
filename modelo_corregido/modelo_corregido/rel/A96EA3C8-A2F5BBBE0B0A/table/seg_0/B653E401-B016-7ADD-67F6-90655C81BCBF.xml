@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B653E401-B016-7ADD-67F6-90655C81BCBF" name="TRANSFERENCIA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>369CF613-504B-5497-CBD4-401EF19E7361</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRANSFERENCIA" id="1656D636-9F19-FDBF-1C5C-04E892958E7F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>99D347AF-C16C-E18B-3C02-46E593A84171</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_ESTACION" id="2A9B24E7-62B4-1BE6-F754-E84FAA67F97D">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0BAD6319-C0D1-BC1A-0EA5-D81592F94AE3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B5AC0CB-8B8A-3F31-21DD-76DE1CF1AA70" referredColumn="620DECD3-CC25-8E6C-F884-C19BAD5B0504"/>
+<colAssociation fkAssociation="9AAFF711-4B70-FC99-4F5B-B22FA8CEBF48" referredColumn="620DECD3-CC25-8E6C-F884-C19BAD5B0504"/>
+</associations>
+</Column>
+<Column name="COD_LINEA_ORIGEN" id="9221591F-1533-81E6-05A4-F0804EA413A6">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CE857AD7-0539-FD4D-D2DF-C292D95DED15</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AAFF711-4B70-FC99-4F5B-B22FA8CEBF48" referredColumn="E8231E65-8024-47EF-4099-23B2E0EA584B"/>
+</associations>
+</Column>
+<Column name="COD_LINEA_DESTINO" id="F04C12DD-2247-3E79-3466-B6511FEB9460">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7821C09C-C603-0EEC-F32A-F387F67FDE0C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B5AC0CB-8B8A-3F31-21DD-76DE1CF1AA70" referredColumn="E8231E65-8024-47EF-4099-23B2E0EA584B"/>
+</associations>
+</Column>
+<Column name="TIEMPO_CAMBIO_MIN" id="15F02F1B-0366-7D9C-14E9-DCC41C3ABC31">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>50B80D3A-2A21-9C3B-718C-D369F34BA5AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESIBLE_DISCAPACIDAD" id="8564DD4E-1275-D90D-E465-371783F74653">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8AF243BD-39BD-985D-2AFA-7204EBE105EE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>89B9E2DA-9349-04B6-72AD-3212FB303BE6</domain>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A916BB99-82C6-6E5A-F4E8-226EFF8176F1" name="PK_TRANSFERENCIA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F1359053-EAF2-A6E9-F54B-ECE2A3178FA1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1656D636-9F19-FDBF-1C5C-04E892958E7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A608D1B-BB5B-8D7A-28D0-AB1E3E684D28" name="UQ_TRANSF">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C0918E11-866B-3CFA-AC56-F6048FCAB564</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A9B24E7-62B4-1BE6-F754-E84FAA67F97D"/>
+<colUsage columnID="9221591F-1533-81E6-05A4-F0804EA413A6"/>
+<colUsage columnID="F04C12DD-2247-3E79-3466-B6511FEB9460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="930E34E5-853D-DA37-A6C2-BC88E980985B" name="FK_TRANSF_DESTINO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F04C12DD-2247-3E79-3466-B6511FEB9460"/>
+<colUsage columnID="2A9B24E7-62B4-1BE6-F754-E84FAA67F97D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCF64780-9EC9-5C15-3FD1-C5AAD35BF4AB" name="FK_TRANSF_ORIGEN">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9221591F-1533-81E6-05A4-F0804EA413A6"/>
+<colUsage columnID="2A9B24E7-62B4-1BE6-F754-E84FAA67F97D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_TRANSF_LINEAS" directorySegmentName="seg_1" id="D6C19F01-4FB6-C826-879B-39AD80352F84">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C9FDF30D-EAF5-8805-08BB-50415D14D8D1</importedID>
+<rule><![CDATA[COD_LINEA_ORIGEN <> COD_LINEA_DESTINO]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TRANSF_TIEMPO" directorySegmentName="seg_1" id="0275568A-D2DD-35BD-7DB8-48DE63F9AD18">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>6145A002-B5D5-5B1F-2603-062546380BF3</importedID>
+<rule><![CDATA[TIEMPO_CAMBIO_MIN > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TRANSF_ACCESIBLE" directorySegmentName="seg_1" id="EC42C375-29AA-3781-BDD4-9EAFE6AB7840">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8024EDAD-0932-FBFE-C979-40C587C3A056</importedID>
+<rule><![CDATA[ACCESIBLE_DISCAPACIDAD IN ('S','N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

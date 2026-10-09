@@ -1,0 +1,291 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="194F7325-90A5-E3F1-E704-5BA936A7A37E" name="ORDEN_MANTENIMIENTO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A377397D-3474-1A0D-2C7B-96BF78128D88</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDEN" id="4E17384F-EAA7-AF1D-A2F2-6DEE2977DCB9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CDBAD8AA-C1AA-228A-CB6E-E3B3AEFDC731</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NUMERO_ORDEN" id="75D607BC-ACDF-33EF-BED3-CDB2FCBC285A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A1C1206A-5B1A-D827-46EF-BE49CFE591E3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EQUIPO" id="438ADFE3-9F9F-D8D9-2107-FEE85B6C8C0B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>217E300C-3FD6-4DE2-3D1D-24D4BF2024EE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0287C8C-711F-2552-E483-5DD0B9A60BFD" referredColumn="668965E9-78E4-4B76-FE72-792F3864C326"/>
+</associations>
+</Column>
+<Column name="TIPO_MANTENIMIENTO" id="A14D3772-13BE-4E28-5320-6FC93960A108">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C562A358-D7E5-FA14-00AA-F18AED004B7F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>00DB499C-F630-3A6A-AF05-2812FFC07423</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="686E1D22-BB15-83A9-92F2-4E55AF7E37E9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>BF7F7421-16FA-F3CA-85F2-3F256566EC96</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2E1FA61D-5B90-E914-9EE1-82EA93261393</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_SOLICITUD" id="DF8225DA-A2B5-E10D-5BAB-1F39989CD937">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>73A03AC9-EA78-3151-785D-E51F2AF93812</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PROGRAMADA" id="1025B7B6-ACFD-0D4C-6812-6E791EE1C4F8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E36FF708-A92F-251C-F434-EF7E24C7F179</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="72289F5F-C9FD-34B4-FC9D-30E3B128DF12">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E1DBB8F5-5172-6956-246B-1B34D1B8E826</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="429CFD2D-AADB-8091-D282-E6B08DD774F6">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>FFBA4013-0821-161C-47E5-F91A404B6C5A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TECNICO_RESPONSABLE" id="AA139F28-6EAF-0F42-857D-010DB3E4B1D2">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1D3F5037-DFEF-1586-C687-F8D8856E33A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AEABF1E-66F1-F165-7984-E473811B25F3" referredColumn="A3F05823-32EA-1A45-9E58-CE44D7305E56"/>
+</associations>
+</Column>
+<Column name="PRIORIDAD" id="2A38B373-10D3-5429-E47A-B7E6DEC06093">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>21E354D2-34E6-A390-B348-683A8177FE6D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<defaultValue>&apos;MEDIA&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO_MANO_OBRA" id="1735C96C-DBC3-A71B-7170-61E5EA1D90BD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F89AE4C8-1913-0F10-FA3D-3D361DB2D314</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EBEF6574-5A91-8151-A1B4-FD76AEA79107</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="EFF77BD9-A502-C8BC-11BD-48485AD3DC1A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>BA4AD1B1-B121-3158-7D25-7A35B73CBD18</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;SOLICITADA&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2031738C-CCCA-6781-9F62-882263BAD1AA" name="PK_ORDEN_MANTENIMIENTO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4575E7EE-0C38-5A51-F7D0-A418F15480A6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E17384F-EAA7-AF1D-A2F2-6DEE2977DCB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AEBCB59-CE2D-9796-B96C-7739A86AC132" name="UQ_ORDEN_NUMERO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0F24F3F8-ECCB-A152-F8B3-03BF35E5E9DC</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D607BC-ACDF-33EF-BED3-CDB2FCBC285A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F263C1E-0E67-9B2F-3B71-FBCCD3A50619" name="FK_ORDEN_EQUIPO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="438ADFE3-9F9F-D8D9-2107-FEE85B6C8C0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="384A516D-0DA3-0A4B-95C3-97D8F1BDF58D" name="FK_ORDEN_RESPONSABLE">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA139F28-6EAF-0F42-857D-010DB3E4B1D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_ORDEN_TIPO" directorySegmentName="seg_0" id="8F6AF33D-03A8-58BA-FACF-BA017B63300F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>9E98BFF5-8446-6788-913D-AF978BD62A3B</importedID>
+<rule><![CDATA[TIPO_MANTENIMIENTO IN ('PREVENTIVO','CORRECTIVO','PREDICTIVO','INSPECCION_SEGURIDAD')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ORDEN_PRIORIDAD" directorySegmentName="seg_0" id="5F59AE81-3ED7-B8C3-2D30-834A57B79D29">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D94B6853-7492-C8D5-A04C-4608936539EF</importedID>
+<rule><![CDATA[PRIORIDAD IN ('BAJA','MEDIA','ALTA','URGENTE')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ORDEN_ESTADO" directorySegmentName="seg_0" id="22AC1649-5225-2B09-5FB0-999E434BD83A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7FB496D1-7D49-0F6D-24AF-5BDF528FD2CD</importedID>
+<rule><![CDATA[ESTADO IN ('SOLICITADA','PROGRAMADA','EN_EJECUCION','SUSPENDIDA','COMPLETADA','CANCELADA')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ORDEN_COSTO" directorySegmentName="seg_0" id="6CD913BE-1836-F226-D559-7CB3FD6E654C">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>322F326B-23C3-DAEB-4710-3B39ADF92A44</importedID>
+<rule><![CDATA[COSTO_MANO_OBRA >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ORDEN_PROGRAMADA" directorySegmentName="seg_0" id="BE62A18C-32B6-6699-0139-D6A5790A6722">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C51EFC03-208E-8F8D-6C1D-27ACE7617FC5</importedID>
+<rule><![CDATA[FECHA_PROGRAMADA IS NULL OR FECHA_PROGRAMADA >= TRUNC(FECHA_SOLICITUD)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ORDEN_FECHAS" directorySegmentName="seg_0" id="F5F91228-1A05-9452-818B-D115FBA79059">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>30879768-18E8-4D9A-3522-0F2F01464239</importedID>
+<rule><![CDATA[FECHA_FIN IS NULL OR FECHA_INICIO IS NULL OR FECHA_FIN >= FECHA_INICIO]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ORDEN_COMPLETADA" directorySegmentName="seg_0" id="D753D88D-BBE4-D37C-9F94-4DEBE8412726">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3E5AF3A7-970B-701E-2E28-7E8EDFCB3531</importedID>
+<rule><![CDATA[ESTADO <> 'COMPLETADA' OR FECHA_FIN IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RECARGA_TARJETA" directorySegmentName="seg_0" id="C9576C55-8B21-6A52-0415-FAE30DB2E662">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>000F7D05-FBD3-7E39-3B41-94B1F14F9DFD</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>8BE48BF7-4837-BABC-15E0-261BA8D008FD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A5131488-1D8A-E07D-B808-097B7661C28C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8BA763AE-DE64-D1CE-2DE7-7EF2C0711E4F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

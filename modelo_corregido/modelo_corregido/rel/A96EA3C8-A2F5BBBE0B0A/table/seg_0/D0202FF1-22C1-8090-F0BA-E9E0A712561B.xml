@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0202FF1-22C1-8090-F0BA-E9E0A712561B" name="SERVICIO_ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E976A660-68A9-A34B-1617-3DA0E2C5FEAB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTACION" id="EABC301C-43D7-0943-35B0-7CA1EB2C384F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>22471AC2-FDD0-AB38-DEE6-F255460F83C2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94117C55-141F-2385-4120-9760C00535A9" referredColumn="65341189-6DB9-D4F4-949F-CA2E9CE9CC30"/>
+</associations>
+</Column>
+<Column name="ID_SERVICIO" id="D1B10159-9AF2-C971-014D-81F32AA454C7">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>19F1CFF4-439E-FEE5-12D4-EC78423FF503</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A456B00-3BB3-C496-82E0-21675EC33C14" referredColumn="E630F1D0-1B25-4D71-37A6-836B39313DF7"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="A81BA228-FC9F-2F7F-B027-9F3E98FC3673">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AE9A748E-063A-32FD-3010-B79966691380</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;DISPONIBLE&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FF5F5DF-8BA0-E240-1A49-4243AF89CEBA" name="PK_SERVICIO_ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>92E58CF9-6D7B-EB08-B4BB-FAFD89A6C70E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EABC301C-43D7-0943-35B0-7CA1EB2C384F"/>
+<colUsage columnID="D1B10159-9AF2-C971-014D-81F32AA454C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58348812-BBAB-50C7-4BC4-B03A8D41AE1D" name="FK_SERVEST_ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EABC301C-43D7-0943-35B0-7CA1EB2C384F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B0A5C3B-7751-2638-76F8-66B167BCE594" name="FK_SERVEST_SERVICIO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1B10159-9AF2-C971-014D-81F32AA454C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SERVEST_ESTADO" directorySegmentName="seg_1" id="6C7F00EC-80A3-E733-A567-93EC5BACB304">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AEAA0011-EB20-1086-82D9-6F8AE2157285</importedID>
+<rule><![CDATA[ESTADO IN ('DISPONIBLE','NO_DISPONIBLE')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

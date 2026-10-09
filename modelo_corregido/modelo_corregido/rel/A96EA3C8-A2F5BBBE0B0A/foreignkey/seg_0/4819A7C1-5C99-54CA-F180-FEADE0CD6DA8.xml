@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4819A7C1-5C99-54CA-F180-FEADE0CD6DA8" containerWithKeyObject="06838F1C-3040-C0EB-1256-BF90E4E72A82" localFKIndex="5E2B5E80-C602-3B07-2835-D57A1C404634" name="FK_INCELEM_LINEA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>27FFA9BD-7623-A3BD-7ACE-1BC3F3B4F3DB</importedID>
+<referredTableLongName>LINEA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DEC023C-48C5-3E78-6B43-5AA1A1E01C92</referredTableID>
+<keyObject>C86A6DC5-88EC-6E88-CF89-97ADF8D0D2A0</keyObject>
+<referredKeyID>C86A6DC5-88EC-6E88-CF89-97ADF8D0D2A0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COD_LINEA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

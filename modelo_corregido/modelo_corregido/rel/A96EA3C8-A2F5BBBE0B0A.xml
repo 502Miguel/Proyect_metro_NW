@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" mainViewID="F4E50B66-1726-A3B2-8DD0-0C22B462C43B">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:43:06 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>01_crear_tablas.sql</fileName>
+<pathName>C:\Users\danie\Documents\Proyect_metro_NW\sql</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
