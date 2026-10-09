@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="REPUESTO" directorySegmentName="seg_0" id="2A792470-25BF-9431-67D9-2AED4CBC2E9F">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="02B7847C-9DE6-A65A-0C00-A638AFA3EA33">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_REPUESTO" id="4B05870E-657D-5257-A55B-61E0DC9A1C92">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_REPUESTO" id="CE58F35E-CD0F-246E-4E5D-CDAF0D3BB25F">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STOCK" id="FB76E5D1-48FC-85B5-3CC5-616AF0232F76">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="COSTO_UNITARIO" id="FE6335F3-C820-FA75-6D67-4487299D6DC1">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_REPUESTO" id="ED2EC692-61BD-375C-0909-77DDCA1ABB15">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CK_REPUESTO_COSTO" id="22FBA6B6-B5EF-09B8-B67E-1B680D529061">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_REPUESTO_STOCK" id="F3F5D602-9506-2488-89BF-76299E3CE242">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_REPUESTO_CODIGO" id="5E7CB15A-7931-1C93-A232-7CB98C138908">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

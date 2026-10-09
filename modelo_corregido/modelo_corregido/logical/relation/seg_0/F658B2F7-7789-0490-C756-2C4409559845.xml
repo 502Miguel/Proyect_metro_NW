@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_INCELEM_RUTA" directorySegmentName="seg_0" id="F658B2F7-7789-0490-C756-2C4409559845">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>2A7E623E-E206-0446-36D4-5266608EE4A5</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>E00C2EBA-C372-2C3B-F579-84D893353AE6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B51186D-597D-ED64-2846-40727EA76494</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B084139C-6FE7-4278-8BE3-DC21FF0409B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

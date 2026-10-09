@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRANSFERENCIA" directorySegmentName="seg_0" id="B653E401-B016-7ADD-67F6-90655C81BCBF">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIEMPO_CAMBIO_MIN" id="15F02F1B-0366-7D9C-14E9-DCC41C3ABC31">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TRANSFERENCIA" id="1656D636-9F19-FDBF-1C5C-04E892958E7F">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="ID_ESTACION" id="2A9B24E7-62B4-1BE6-F754-E84FAA67F97D">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCESIBLE_DISCAPACIDAD" id="8564DD4E-1275-D90D-E465-371783F74653">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<defaultValue>&apos;N&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="COD_LINEA_ORIGEN" id="9221591F-1533-81E6-05A4-F0804EA413A6">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_LINEA_DESTINO" id="F04C12DD-2247-3E79-3466-B6511FEB9460">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TRANSF_DESTINO" id="930E34E5-853D-DA37-A6C2-BC88E980985B">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TRANSF_ORIGEN" id="DCF64780-9EC9-5C15-3FD1-C5AAD35BF4AB">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TRANSFERENCIA" id="A916BB99-82C6-6E5A-F4E8-226EFF8176F1">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CK_TRANSF_TIEMPO" id="0275568A-D2DD-35BD-7DB8-48DE63F9AD18">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TRANSF_LINEAS" id="D6C19F01-4FB6-C826-879B-39AD80352F84">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TRANSF_ACCESIBLE" id="EC42C375-29AA-3781-BDD4-9EAFE6AB7840">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_TRANSF" id="5A608D1B-BB5B-8D7A-28D0-AB1E3E684D28">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

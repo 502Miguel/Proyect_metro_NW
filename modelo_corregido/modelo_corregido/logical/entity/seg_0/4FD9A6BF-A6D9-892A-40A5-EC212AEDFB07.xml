@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FD9A6BF-A6D9-892A-40A5-EC212AEDFB07" name="ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>F83497F2-4D0E-3192-2960-1C0FCEF0AF98</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ESTACION" id="66221D9A-6D0A-06F6-2409-D0033E121FD0">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>65341189-6DB9-D4F4-949F-CA2E9CE9CC30</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO ESTACION" id="2794C5EC-86F2-2D0B-8CC6-19A85D7097D9">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>B9A74FA7-A88F-0C26-6EA2-5E6E8F662460</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="31CAE187-1B06-DB3A-1739-1B2BDC2D2020">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>DEA28437-63AF-1368-460C-9C113B29CA88</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D3C2364F-EDA3-AC15-6FE5-A415CD297D48</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="04B42B18-3F22-C638-38A7-7DD6B7A20036">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>36EFE6CC-F2C9-A120-9D9A-92C2689D077A</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>14192929-F868-0C38-03DD-3BC806D98B73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOROUGH" id="02165969-9704-6526-3ED8-71E7BF6C5CA9">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>CDA569CE-A552-D71E-3662-F322897B6F83</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LATITUD" id="A3CC20E3-4C0C-515A-963B-2F5DA7359CBB">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>63F8C348-26CD-E0A3-DE99-079B0462DF0F</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20289128-9FD0-0B43-42A1-06CD88E5CFAF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LONGITUD" id="0470AEAC-D192-20B4-D6EE-495A2E78E309">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>A798FA1C-CFA2-9562-3DD5-5D8934046E0A</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20289128-9FD0-0B43-42A1-06CD88E5CFAF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA INAUGURACION" id="C4FFD326-D78F-665A-A840-C7FCC8C1B6DB">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>ECBB93F3-7C87-D3BD-895D-06DAD54836D8</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD ACCESOS" id="5F03CE43-9BB3-8557-3835-73A01C0AC925">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>42316A00-BEBA-DDBC-507F-9EBEF997E6A3</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD PLATAFORMAS" id="8E4CF267-1F21-843C-EB0D-185E67651043">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>690BC79F-AD4D-5163-1117-F10910CBD2EE</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>49B161B3-1691-0D8C-FAEC-2AA99B29B0B2</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO ESTACION" id="D3AA256B-A105-D12F-E0C5-84DFB35C25F6">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>8F5A8A2E-08AC-1160-A628-C09B515515B0</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO OPERATIVO" id="937B37E6-231C-D987-87E1-05B0685E7831">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>347C3D93-F870-30F0-2AF4-954A787AB1A1</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;OPERATIVA&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORARIO FUNCIONAMIENTO" id="E01AC316-AB44-3E9D-1774-243006C0C6FF">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>CE1AC988-4087-FE47-2AD4-8EE141CC71AC</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C20390F-EE04-96AE-A926-275BFFBA223E</domain>
+<defaultValue>&apos;24 HORAS&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCESIBLE DISCAPACIDAD" id="7E1DCD17-F5A7-C18A-D5F5-575C7894640E">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>C113FDDB-2515-BEB2-3D83-C5901796EC15</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>89B9E2DA-9349-04B6-72AD-3212FB303BE6</domain>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00EB2ABE-CBFE-88AF-8F61-49329FC2A3A4" name="PK ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>C1FA9820-4278-D449-3889-75C174AF11F2</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66221D9A-6D0A-06F6-2409-D0033E121FD0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3BBB374D-2692-A8B2-88B6-BE53C747DB73" name="UQ ESTACION CODIGO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>9BB2092F-1E02-57FF-D883-FE63BC19C206</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>2794C5EC-86F2-2D0B-8CC6-19A85D7097D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

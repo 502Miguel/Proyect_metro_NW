@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11851E32-528C-07AF-529B-E9DEE652A241" containerWithKeyObject="3514D897-9ECA-8F6E-9B1D-DEBA1B52E70E" localFKIndex="BE848435-C9AE-7F84-64BC-3790DF12FF2D" name="FK_EQUIPO_PLATAFORMA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>ED8EB674-567D-EA30-0B84-F33E6C5875FA</importedID>
+<referredTableLongName>PLATAFORMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA2D3F13-E87E-3DE2-27F9-BA58F73A8AA3</referredTableID>
+<keyObject>AEB3C97E-B158-966F-1C4C-1099B06A8B8E</keyObject>
+<referredKeyID>AEB3C97E-B158-966F-1C4C-1099B06A8B8E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PLATAFORMA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

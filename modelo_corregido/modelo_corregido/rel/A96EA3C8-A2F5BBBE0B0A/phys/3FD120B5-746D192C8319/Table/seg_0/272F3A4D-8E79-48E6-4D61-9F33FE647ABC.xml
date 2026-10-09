@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPOSITO" directorySegmentName="seg_0" id="272F3A4D-8E79-48E6-4D61-9F33FE647ABC">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_DEPOSITO" id="408B8BE4-52A1-2B28-F906-98BE35C09E6F">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="BOROUGH" id="8B32904E-7A7C-D009-07D5-554DEF6B5F4B">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="8E3CAD75-3FB1-E5E8-4E02-590370A6E48C">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="B69834C0-F0B2-8EA2-0334-E239E013DFEF">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPACIDAD_TRENES" id="CFCA2AA2-7403-D42A-4C68-F588BEEB55F5">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DEPOSITO" id="9F54086B-83BD-C2FE-A92D-D8AC1456F4A3">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CK_DEPOSITO_CAPACIDAD" id="965252A6-88FB-EC41-89E5-D27A036A05CB">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_DEPOSITO_BOROUGH" id="D9A26784-AA04-B328-3DAD-F4E760E4DD8A">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_DEPOSITO_NOMBRE" id="CA6E9AD5-9D9B-AB26-2009-3FB6519E4171">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

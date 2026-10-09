@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TARIFA" directorySegmentName="seg_0" id="CCE92AA3-F7FE-E356-F6F1-322C61C732DC">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_TARIFA" id="0D94B1A2-A879-F79A-9273-0B9CBDA6D4EC">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTO" id="0EFFEAE4-3480-7F00-5D61-455101734442">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="1406A7C2-CCCA-3FDD-848D-BFFC5904E80B">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DURACION_DIAS" id="3E8DF4E0-055D-3E39-AFB1-C44093FDD072">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TARIFA" id="543FF89F-6CCF-DF54-0345-516C6EEF511C">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="FECHA_FIN_VIGENCIA" id="79722387-B38F-4A9E-4053-666C9D4C42BC">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_PASAJERO" id="7C6ED676-2663-3FAE-8F04-6DDFBE5D2325">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INICIO_VIGENCIA" id="7CDFE54A-0A4F-745D-22F5-0E87E9B0CF5F">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTO" id="7F6C06DF-3120-6D97-D3D0-55FE90651283">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAX_VIAJES" id="81B4C058-0393-513D-67BC-191CA03F5316">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="ACDC27BB-800F-2ACD-E06B-D5005BFA5AC5">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<defaultValue>&apos;VIGENTE&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="CD79E927-A07C-3184-82C7-42E4B45F5A8B">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TARIFA" id="A8F0619B-D4D7-A7C0-811D-C0C047247418">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CK_TARIFA_ESTADO" id="36837C53-DC0E-8B86-9A7B-C8B0BB39B774">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TARIFA_MAX_VIAJES" id="44792203-276A-2C28-5A82-CE6FBCFF9D10">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TARIFA_MONTO" id="450ADC2A-45A1-FC41-B948-FA06177277E5">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TARIFA_DURACION" id="A6E4CC10-E2E8-C329-0D5B-CC27BFF02314">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TARIFA_TIPO_PAS" id="C74373D7-99CF-0EAC-BB8B-ED153FF6E837">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TARIFA_PRODUCTO" id="E5F5E227-DB1C-1B85-5DA1-57FBE3AD9828">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="CK_TARIFA_VIGENCIA" id="EFC116EC-5A79-3BEA-7E7A-A5D67B5D0620">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_TARIFA_COD_VIG" id="027C2627-0CB4-DAA9-E90E-82A002A190FC">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

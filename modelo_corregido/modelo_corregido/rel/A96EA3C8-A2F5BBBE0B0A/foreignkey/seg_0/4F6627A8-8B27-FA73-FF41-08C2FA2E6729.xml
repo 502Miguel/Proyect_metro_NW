@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F6627A8-8B27-FA73-FF41-08C2FA2E6729" containerWithKeyObject="3A8E0B42-6500-49C9-143A-B64525E35155" localFKIndex="88441129-B72A-6454-3D82-561B576EB55C" name="FK_CERTMOD_MODELO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>67E52DC2-7A02-A73B-8EC1-F1C795F2F6A7</importedID>
+<referredTableLongName>MODELO_TREN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FAFFABB-F6A1-FE92-73FD-F502B8A6F67A</referredTableID>
+<keyObject>73FBB540-A3B6-E17C-9EE3-41C4D16A09DC</keyObject>
+<referredKeyID>73FBB540-A3B6-E17C-9EE3-41C4D16A09DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MODELO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

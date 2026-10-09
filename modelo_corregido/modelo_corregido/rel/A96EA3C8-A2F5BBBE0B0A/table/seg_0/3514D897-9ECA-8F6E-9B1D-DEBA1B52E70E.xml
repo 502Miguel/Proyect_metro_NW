@@ -1,0 +1,332 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3514D897-9ECA-8F6E-9B1D-DEBA1B52E70E" name="EQUIPO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5C871069-56C4-A48D-74F0-D800895C7CE2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EQUIPO" id="668965E9-78E4-4B76-FE72-792F3864C326">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0C228385-B480-1C00-1CD3-8BA8C8594E22</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CODIGO_EQUIPO" id="00D29358-F7EA-5F7C-D6B8-6764027BDBD9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>255AADDE-67C2-891B-B130-59E6F0282F8E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_EQUIPO" id="5B2C83DE-E623-6B0C-469E-8FAD6DF408F4">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8DE0CE4B-4DF1-374A-E836-D0B3BBA1B3F5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UBICACION" id="24E291C5-C142-168F-7062-2D6918839150">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5F8EA66E-C77A-3530-46B5-21569D3E276D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>37930F9C-3D9B-CC5D-60B2-BDAD9D6A41C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTACION" id="5B2F8F5E-0C0B-4267-4B73-4997FF3FB8B6">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F1713D6A-8AC8-DD7A-E78F-FDC471FAA59C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A62A71B-6375-2BCD-D95C-665AD958C448" referredColumn="65341189-6DB9-D4F4-949F-CA2E9CE9CC30"/>
+</associations>
+</Column>
+<Column name="ID_PLATAFORMA" id="43F8DFB9-5D65-AE52-41BC-95D10DFB74BE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F14F293C-0C4F-D0F2-36FA-24B907E24747</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11851E32-528C-07AF-529B-E9DEE652A241" referredColumn="6C103B78-898E-3911-E2C9-E4D658CC5EBD"/>
+</associations>
+</Column>
+<Column name="ID_TREN" id="F822CFAE-CBD8-2941-0DC2-BB1B4D5DBD13">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D2095B78-6ADB-3AB3-24CF-839822833CD3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6C3AC8B-370D-EFC1-D9F2-39B894D780B8" referredColumn="BD10F292-5DF4-863B-69CC-EFC9DBD35951"/>
+</associations>
+</Column>
+<Column name="ID_VAGON" id="7AF946B8-E98E-6628-810D-AFB3380CD994">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>00D0047B-406C-AD7D-D1AB-CA4C2AF39D97</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3526EE63-FAEA-3FC4-9A12-023D6E55ACBE" referredColumn="A9F01FFA-9ABB-B84E-881A-3377BEFD5C1C"/>
+</associations>
+</Column>
+<Column name="FABRICANTE" id="9661B6A5-74F2-AAD0-8F54-93038D8BE38F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2278341B-128D-A416-5DC6-887CE2EE8D4E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C20390F-EE04-96AE-A926-275BFFBA223E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO" id="F05035DD-FC0D-29AC-2D6F-C77DE46CA75A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>11E04A83-A1CF-47F1-E8BB-A553E6107F23</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C20390F-EE04-96AE-A926-275BFFBA223E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_SERIE" id="52692912-E273-A310-16DC-623B301154B9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1FF0CA18-EAA8-B8F8-CE81-18F51D90B9A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72F2F846-024B-B3D1-259A-26013520DEA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INSTALACION" id="597C9BBB-7C7A-FA2E-FEC8-E28F4197E155">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>044CCB44-9820-4F00-E87C-2EEAC2A517E4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="BAE9F7C7-C017-FDFB-AA25-36F6C1864A09">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>ECD97168-43DF-F39A-FE13-7AB43D38B552</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;DISPONIBLE&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ULTIMA_REVISION" id="76DD8E82-16A8-A72A-A6B8-9B06F904A4A4">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A754EF0F-A408-1507-BBB1-9276CF1E8020</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PROXIMA_REVISION" id="DEBF993F-4C75-8DAC-F83E-4178E47FAF65">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F9846870-8AA3-A935-1589-D600F3FFE7CC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F59EADD-5D66-EF66-349F-246AB38BA986" name="PK_EQUIPO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>64F48D4C-E18B-A232-CB8F-1F0475472451</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="668965E9-78E4-4B76-FE72-792F3864C326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CF53145-D55B-F765-8308-CF8E66CB095A" name="UQ_EQUIPO_CODIGO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>04169F64-5630-8B09-36C2-0BC9375DCEA2</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00D29358-F7EA-5F7C-D6B8-6764027BDBD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A17F733-2FBE-FAAE-5490-6C70599363DD" name="UQ_EQUIPO_SERIE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F6082AA8-148A-B4C8-ED92-1FFABB544E86</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52692912-E273-A310-16DC-623B301154B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6CCFE74-220C-140F-A679-DDE9CA12FF1A" name="FK_EQUIPO_ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B2F8F5E-0C0B-4267-4B73-4997FF3FB8B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE848435-C9AE-7F84-64BC-3790DF12FF2D" name="FK_EQUIPO_PLATAFORMA">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43F8DFB9-5D65-AE52-41BC-95D10DFB74BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3770BB13-DCC2-37A9-8E1C-EBF14DB77BCA" name="FK_EQUIPO_TREN">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F822CFAE-CBD8-2941-0DC2-BB1B4D5DBD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="101EA568-FEFF-88EE-25FE-9E19385C6F11" name="FK_EQUIPO_VAGON">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AF946B8-E98E-6628-810D-AFB3380CD994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_EQUIPO_TIPO" directorySegmentName="seg_0" id="F60171BF-800F-666E-D9AE-8694C3B4CA0F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0B09995A-CA57-4134-66DB-2D91F19E4F8A</importedID>
+<rule><![CDATA[TIPO_EQUIPO IN ('TREN','VAGON','VIA','SENAL','PLATAFORMA','ELEVADOR','ESCALERA_ELECTRICA','OTRO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EQUIPO_ENLACE" directorySegmentName="seg_0" id="BE395A23-6E31-7BB6-10D3-4106090670DD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4C5E6158-B787-5FBB-DB0A-2149EB298A47</importedID>
+<rule><![CDATA[(TIPO_EQUIPO = 'TREN' AND ID_TREN IS NOT NULL) OR (TIPO_EQUIPO = 'VAGON' AND ID_VAGON IS NOT NULL) OR (TIPO_EQUIPO = 'PLATAFORMA' AND ID_PLATAFORMA IS NOT NULL) OR (TIPO_EQUIPO IN ('ELEVADOR','ESCALERA_ELECTRICA') AND ID_ESTACION IS NOT NULL) OR (TIPO_EQUIPO IN ('VIA','SENAL','OTRO'))]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EQUIPO_ESTADO" directorySegmentName="seg_0" id="CD823C5D-00CB-9F19-90B0-7360FAAB21C2">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CD058296-DF8D-FB99-4E9B-487249E7CDFA</importedID>
+<rule><![CDATA[ESTADO IN ('DISPONIBLE','EN_MANTENIMIENTO','FUERA_DE_SERVICIO','RETIRADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EQUIPO_REVISION" directorySegmentName="seg_0" id="25D922A4-C556-A63E-EBB6-D6EBE0609C47">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A1982D26-1D33-FD67-6E1E-1F940C3724F6</importedID>
+<rule><![CDATA[FECHA_PROXIMA_REVISION IS NULL OR FECHA_ULTIMA_REVISION IS NULL OR FECHA_PROXIMA_REVISION >= FECHA_ULTIMA_REVISION]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

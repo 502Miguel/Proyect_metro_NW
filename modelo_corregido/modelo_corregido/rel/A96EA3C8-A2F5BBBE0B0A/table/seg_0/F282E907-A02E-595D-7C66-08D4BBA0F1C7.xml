@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F282E907-A02E-595D-7C66-08D4BBA0F1C7" name="INCIDENTE_VIAJE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C52FBFC7-ABC2-7DF8-2665-C784830B04BE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INCIDENTE" id="86F26910-517A-F75C-A78B-6430F72724E3">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8B1D2120-CEBD-B6A6-9D32-7883EE0620B8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6224F3F-E019-9E9A-0EB5-4521D3F6E092" referredColumn="B66DFFA7-251A-F7B6-9963-A22FEEF66A42"/>
+</associations>
+</Column>
+<Column name="ID_VIAJE" id="2E4D37B5-0F10-CF87-0C3C-460A4BF7B734">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C867CBFB-2F1F-D5B9-4852-7AB4BD265B3C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3FC1E26-137E-69DE-0DC5-B12BCB31A469" referredColumn="2A980D97-E90C-8111-BA72-AA6FDDBEAB91"/>
+</associations>
+</Column>
+<Column name="TIPO_AFECTACION" id="ADD53D83-47DB-B9AE-76FD-0D4C798C9A43">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>13FEF52C-7C90-D9CA-DAC9-3B1AE613B47D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2A02DB10-39DC-9BBC-0DE4-2902E91DDD2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTOS_RETRASO" id="0122E1D1-E91C-968D-D5A0-AF6295DD85FA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5933B663-5655-9A85-8A97-3BB2C667243A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>70124D63-BF51-400F-08F6-7DA80E086332</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15F279FF-107E-0537-589A-A6881F5D1612" name="PK_INCIDENTE_VIAJE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4728AC7D-7CC7-FF1E-A5B6-1A308229480E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F26910-517A-F75C-A78B-6430F72724E3"/>
+<colUsage columnID="2E4D37B5-0F10-CF87-0C3C-460A4BF7B734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD5A0E98-4937-7496-5852-55999CF0E40B" name="FK_INCVIAJE_INCIDENTE">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F26910-517A-F75C-A78B-6430F72724E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FB720B4-E4AA-EC98-5EAF-C9E1BBF69D5E" name="FK_INCVIAJE_VIAJE">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E4D37B5-0F10-CF87-0C3C-460A4BF7B734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_INCVIAJE_TIPO" directorySegmentName="seg_0" id="D24D3C5E-AFC6-4AD6-6223-9E5E54B1ADE4">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F4C9854B-7F86-5675-3A31-0ADE92E89672</importedID>
+<rule><![CDATA[TIPO_AFECTACION IN ('RETRASO','CANCELACION')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_INCVIAJE_MINUTOS" directorySegmentName="seg_0" id="FB03481E-0524-7C79-16E9-0C4FB039DF9B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>666FDD98-491A-85B4-108D-4D5038324CC5</importedID>
+<rule><![CDATA[MINUTOS_RETRASO >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

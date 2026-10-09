@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TURNO_ESTACION" directorySegmentName="seg_0" id="7B35470D-E2C0-9302-AB21-3942C9CF6A51">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>17CADE65-1870-D4C7-F135-17C81F9060B6</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>00EB2ABE-CBFE-88AF-8F61-49329FC2A3A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FD9A6BF-A6D9-892A-40A5-EC212AEDFB07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16F571E7-1038-0F2B-2DDF-3A5C841ED69B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

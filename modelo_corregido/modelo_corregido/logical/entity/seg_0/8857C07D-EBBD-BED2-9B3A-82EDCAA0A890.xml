@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8857C07D-EBBD-BED2-9B3A-82EDCAA0A890" name="LINEA ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>F0292921-4BB6-5B6D-D6A7-AA61D32B1C5B</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID LINEA ESTACION" id="672CD12D-18C7-0A6B-05A7-169316A6F119">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>5F59DFBE-26B0-F10D-FA47-92775AB84749</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD LINEA" id="E39303DC-FCE0-0CF5-14C3-FB93FF7D6D10">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>71434ED0-6A3B-9511-F8F3-2BCE531D3AB7</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<referedAttribute>F8E0E519-F99C-3359-6215-067838C53DA2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ESTACION" id="7C7ECC8F-CBB1-C9D3-6F44-02A9B8558BDA">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>A71DF516-9B9A-31F8-A3BB-6140AE799767</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<referedAttribute>66221D9A-6D0A-06F6-2409-D0033E121FD0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO SECUENCIA" id="A0CB6105-D192-12B1-148E-5F3B34A9AACB">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>85E04144-51B7-619F-03F4-CA1BF00F27C3</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISTANCIA KM ANTERIOR" id="9BBC85CE-10AA-6E18-4109-940153E9F5C7">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>54948367-E872-D98B-41BE-CFDFBBEFE647</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1C3343DE-71D8-D2F5-4804-55F441C43FAF</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIEMPO MIN ANTERIOR" id="9AF9F3AE-C236-C893-AA09-A58A1351E886">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>6229ED60-527B-4E5B-90B3-8E1E195856C8</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC76B8DB-7CB7-60CD-C521-A38ADC7C5962</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="961BD7EA-014D-7F30-B61C-8DBE25E79901" name="PK LINEA ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>67A9BD9E-4191-5A95-46C6-33F809E980EF</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>672CD12D-18C7-0A6B-05A7-169316A6F119</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F4E23AB9-9023-EB9D-4CE5-3146236AB015" name="UQ LINEST LINEA EST">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>77BFE055-E083-3DC7-AE14-2D3EDF2CBB73</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>E39303DC-FCE0-0CF5-14C3-FB93FF7D6D10</attributeRef>
+<attributeRef>7C7ECC8F-CBB1-C9D3-6F44-02A9B8558BDA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="994C5495-8A44-5D55-1D3F-3A5FEB793D8D" name="UQ LINEST LINEA SEC">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>9B93D9EE-FFBD-96C1-709C-C25F0D47EA2C</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>E39303DC-FCE0-0CF5-14C3-FB93FF7D6D10</attributeRef>
+<attributeRef>A0CB6105-D192-12B1-148E-5F3B34A9AACB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

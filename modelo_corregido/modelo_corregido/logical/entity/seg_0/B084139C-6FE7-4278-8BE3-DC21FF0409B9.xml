@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B084139C-6FE7-4278-8BE3-DC21FF0409B9" name="INCIDENTE ELEMENTO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>06838F1C-3040-C0EB-1256-BF90E4E72A82</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID INCIDENTE ELEMENTO" id="948A7E07-F740-4A68-2418-1D97D89E957E">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>417F8DED-74E6-EC1B-8355-F42A7F55F86A</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID INCIDENTE" id="781B5406-E5A0-0BBB-3402-D7804E23198F">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>3AD6C2C1-4E00-FE38-AFEF-EAC2EAAEB45A</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<referedAttribute>79C4A9BB-DEF7-D799-84FA-755CAAB4489D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO ELEMENTO" id="232B49AB-AE68-95AE-C70E-811AA626C574">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>331ACB4B-6B66-57B2-2CFA-822F549CD7E6</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ESTACION" id="62B5BA80-BD0D-5C28-D547-D310F0EFD278">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>6BB7EF60-B2A6-5F94-EAB1-CCE570F9E0BF</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>66221D9A-6D0A-06F6-2409-D0033E121FD0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ESTACION FIN" id="91DB880A-8562-808C-98BF-64A291DF4993">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>91A027CD-F2D3-873D-E8CD-47D5941C81BE</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>66221D9A-6D0A-06F6-2409-D0033E121FD0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD LINEA" id="51065C9C-F51F-87DC-209F-5872F1E55A38">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>535128F8-DAC6-EDDD-CBE8-451EA54E7163</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F8E0E519-F99C-3359-6215-067838C53DA2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PLATAFORMA" id="EBF6B4BD-1A27-5DA1-25DA-4DD5A78C2E6D">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>630E2D2F-AEC9-B330-6133-99E7A81F6570</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B59B47EA-0167-8036-4630-C1666C335037</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TREN" id="88E25E3C-F033-29E0-606E-1597F03B3FDE">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>C974F753-BBD2-0A70-C4DA-0EC7E037E985</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>36B905BA-5083-7564-B3CF-3ACEB589B91D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID RUTA" id="938EB8ED-A0B7-8711-FF3D-CD9E81F98DFF">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>F658B2F7-7789-0490-C756-2C4409559845</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>35DB1E01-891F-87C3-4A33-31933F174013</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID EQUIPO" id="FB40CA96-F6C8-0CD7-4A8A-8A0DBCEB219D">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>7A7A0790-3498-4E8A-D22E-A47F11157077</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3E6B0022-20F6-4293-E2C7-BB274D0CC044</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFECTO" id="E0EF2C6C-11DB-AB54-46BB-63F99C1DB357">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>C6A61D7E-320C-A637-3901-E4ED581050EE</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72F2F846-024B-B3D1-259A-26013520DEA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79EE524B-988A-0017-0A35-BE3EBB0DE62B" name="PK INCIDENTE ELEMENTO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>D430406A-8967-E994-8938-AD9CC220CF1F</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>948A7E07-F740-4A68-2418-1D97D89E957E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_COMPOS_TREN" directorySegmentName="seg_0" id="A33E44B8-7B53-ED18-97FA-6AAA0B85AB78">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>0E74632B-50CA-3E60-843A-09F98585FFEB</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>DA94237E-5EB4-9881-00F1-A2C042A2DDEF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4800012-1C5A-16C2-7409-1CCA9E898185</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62756462-D73D-AB42-7C9B-75AB62E82855</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

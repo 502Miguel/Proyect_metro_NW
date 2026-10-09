@@ -1,0 +1,300 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="961EE3E2-662A-54AB-C18B-C09872F828EB" name="VIAJE_PROGRAMADO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CBA768D9-4F5E-CFFA-F2E2-514772023F3D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VIAJE" id="2A980D97-E90C-8111-BA72-AA6FDDBEAB91">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3F8916DB-B6B1-1EBB-79EC-9AE0C401B73D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NUMERO_VIAJE" id="61DA3CC6-F042-C828-A1DD-D42B7CB99EF8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>33B68278-B117-F7B9-91A1-A7A4067CF604</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RUTA" id="150FF5A6-8B30-0FB3-0288-1C2B4CBF8D4D">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D4FA1B33-235D-CDA0-78D8-26162CC450D4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9737DF2B-6982-A7B1-E076-470922DF7016" referredColumn="F0FFC761-CD57-D11A-BC02-0E90489F6FD9"/>
+</associations>
+</Column>
+<Column name="ID_HORARIO" id="93D8296B-6332-FD8E-1D86-4724815F8093">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>68635584-4B05-1332-10CB-27623F3B6C80</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E79A3E4-9BF7-17EF-AFB9-7677F443EAC1" referredColumn="DFA5B374-5C76-697F-AA94-38D1E2E7CE97"/>
+</associations>
+</Column>
+<Column name="FECHA_VIAJE" id="B50EFF69-099A-5430-F38E-1A4CB0E0F789">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8CBAD133-02D4-F930-0C9D-7144EB9C508A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALIDA_PROGRAMADA" id="A42C3438-F790-086E-2053-75F34225C574">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>385BDC62-A94D-7EC9-62BD-5756075C507B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LLEGADA_PROGRAMADA" id="D7E83F64-6799-C0EC-50A5-CE324D906EB6">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>67B73762-1C9E-D3E0-FB55-AE870137BF45</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALIDA_REAL" id="20EC8C62-857F-2706-6C39-E62318C713B9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5A9BE40B-84B8-947D-4F6D-B7F8284F44A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LLEGADA_REAL" id="6F62FC50-DA12-1163-971C-A48070ED7706">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>36161A96-1E3B-14B5-CC97-EA2DD7EF2470</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TREN" id="C73DFDC4-7F25-033D-84CA-906E1BDDD696">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EF472F26-29D3-D287-E702-EE6FC061B552</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9632DD32-73FB-624D-90B1-76370FCD2459" referredColumn="BD10F292-5DF4-863B-69CC-EFC9DBD35951"/>
+</associations>
+</Column>
+<Column name="ID_CONDUCTOR" id="C84FD605-5042-10EE-76A0-3BE7843BD2EC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>046C972A-27BE-58AF-AA03-32B418B7CB62</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="980F20B1-42FE-68F1-EC1B-E5B253048107" referredColumn="A3F05823-32EA-1A45-9E58-CE44D7305E56"/>
+</associations>
+</Column>
+<Column name="ESTADO_VIAJE" id="996AAA5A-ED4E-53E3-37AF-1BA45997095F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C2DBF43D-9AB4-47D4-B4C3-0F92B2535E89</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;PROGRAMADO&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAJEROS_ESTIMADOS" id="F14E27B6-2EBA-FDF7-FC97-D7C0AE75D249">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2B79C794-83CC-A472-DCA1-DC46F84C1242</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C9E53F8B-29BD-CCC6-0EFF-07DADCFB5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFF42241-8A65-E50A-B9E5-0D90B7A3F7C9" name="PK_VIAJE_PROGRAMADO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CA055CDD-97A3-AC1E-6FB4-A424DEA3D495</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A980D97-E90C-8111-BA72-AA6FDDBEAB91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3716331D-75A0-762A-068A-D6248582FE84" name="UQ_VIAJE_NUMERO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E4FB7194-C4C6-8C50-0819-A212F0A14078</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DA3CC6-F042-C828-A1DD-D42B7CB99EF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4737BAB2-12D4-07FB-7E5A-1CE58D2B5B46" name="FK_VIAJE_CONDUCTOR">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C84FD605-5042-10EE-76A0-3BE7843BD2EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16F81DC5-448E-FCBB-E102-4C050C7B3E99" name="FK_VIAJE_HORARIO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D8296B-6332-FD8E-1D86-4724815F8093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6FAE736-C17D-8FD4-0DF6-D9A1CCF81BB1" name="FK_VIAJE_RUTA">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="150FF5A6-8B30-0FB3-0288-1C2B4CBF8D4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08F63079-023B-F7C5-400C-E3F88F059B34" name="FK_VIAJE_TREN">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C73DFDC4-7F25-033D-84CA-906E1BDDD696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_VIAJE_ESTADO" directorySegmentName="seg_1" id="3AE6F7C9-872F-F038-6DE7-6E0B29764172">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>31AF7AEC-4ECA-EA26-F54E-178AFB7A23E6</importedID>
+<rule><![CDATA[ESTADO_VIAJE IN ('PROGRAMADO','EN_ABORDAJE','EN_CURSO','COMPLETADO','RETRASADO','CANCELADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VIAJE_PROGRAMADAS" directorySegmentName="seg_1" id="6C5CEC8C-E374-D0F8-224E-13E398696D9D">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1F2166AA-618B-123B-14E2-27027D8965E0</importedID>
+<rule><![CDATA[LLEGADA_PROGRAMADA > SALIDA_PROGRAMADA]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VIAJE_REALES" directorySegmentName="seg_1" id="09D0F407-AB06-6188-637E-C79E8130282A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0D02814B-46BC-EE70-E053-2BC242DA7BF8</importedID>
+<rule><![CDATA[LLEGADA_REAL IS NULL OR SALIDA_REAL IS NULL OR LLEGADA_REAL >= SALIDA_REAL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VIAJE_FECHA" directorySegmentName="seg_1" id="ABC83603-75BC-7D8E-2F1A-57D078F19DBF">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A5CD7A1C-B492-0DF8-B4BA-96DD026EC135</importedID>
+<rule><![CDATA[TRUNC(SALIDA_PROGRAMADA) = FECHA_VIAJE]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VIAJE_PASAJEROS" directorySegmentName="seg_1" id="2E0EEDF0-A537-1827-B614-00ACD162C491">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5A0A6586-3FCA-4C9A-5068-A943C8E0E368</importedID>
+<rule><![CDATA[PASAJEROS_ESTIMADOS >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

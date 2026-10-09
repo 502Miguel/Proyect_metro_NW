@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TURNO_RUTA" directorySegmentName="seg_0" id="E30D6517-CD13-2D1E-6CC0-CF368FE5CC75">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>5372B9D3-7D7F-7FF7-07A8-3CEE45656F9C</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>E00C2EBA-C372-2C3B-F579-84D893353AE6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B51186D-597D-ED64-2846-40727EA76494</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16F571E7-1038-0F2B-2DDF-3A5C841ED69B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

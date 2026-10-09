@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6E091BB-913A-B9BB-6C5E-BFE3F9DEE5F8" containerWithKeyObject="3A8E0B42-6500-49C9-143A-B64525E35155" localFKIndex="876EEDAB-A05C-0D78-6A91-984635B7E95B" name="FK_CERTMOD_CERT">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8C4E3A12-1791-C781-03D6-17E29A75B6E3</importedID>
+<referredTableLongName>CERTIFICACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>993F2054-3C44-F15D-BF6C-6BAC13B78F87</referredTableID>
+<keyObject>5725531C-D851-A9DD-866D-2D4D640F2400</keyObject>
+<referredKeyID>5725531C-D851-A9DD-866D-2D4D640F2400</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CERTIFICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

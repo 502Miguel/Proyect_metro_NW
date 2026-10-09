@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCE92AA3-F7FE-E356-F6F1-322C61C732DC" name="TARIFA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>705D899E-7EA8-D179-65AC-EC1B4F1CB55E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TARIFA" id="543FF89F-6CCF-DF54-0345-516C6EEF511C">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F9A7B1F1-F5FA-B8E9-2D67-42634C63BA81</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CODIGO_TARIFA" id="0D94B1A2-A879-F79A-9273-0B9CBDA6D4EC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0C353FFF-0681-E27D-34F2-E578BF07BAAD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2A02DB10-39DC-9BBC-0DE4-2902E91DDD2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="1406A7C2-CCCA-3FDD-848D-BFFC5904E80B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7D9273CF-E6D7-7D0C-7B68-01B83D6111B9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C20390F-EE04-96AE-A926-275BFFBA223E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="CD79E927-A07C-3184-82C7-42E4B45F5A8B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A86BBFFA-354C-0A42-17A7-7B2860ADD7D5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>14192929-F868-0C38-03DD-3BC806D98B73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO" id="7F6C06DF-3120-6D97-D3D0-55FE90651283">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5808F1E6-34AB-CDAE-5209-5AB61EA275B9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="0EFFEAE4-3480-7F00-5D61-455101734442">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EF859611-7C40-4DD0-6D89-5563E30A4BB9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>13884C22-81CB-14F9-6B26-A260AD625F89</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PASAJERO" id="7C6ED676-2663-3FAE-8F04-6DDFBE5D2325">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CC1E7C2B-E461-50C2-72AE-A415A60A9DA8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_VIGENCIA" id="7CDFE54A-0A4F-745D-22F5-0E87E9B0CF5F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>055BCF6F-62BB-25E2-F907-4AF5B23151CD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN_VIGENCIA" id="79722387-B38F-4A9E-4053-666C9D4C42BC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4DF78994-7863-4CEF-5C52-FD508BC1AC4B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_VIAJES" id="81B4C058-0393-513D-67BC-191CA03F5316">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EC51FF02-DC7F-CCB3-4841-2392F6FBBF6B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8D5F80E-17B4-7B1E-5D6A-303559000083</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION_DIAS" id="3E8DF4E0-055D-3E39-AFB1-C44093FDD072">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>9CD19D47-B05B-7436-5CFD-42564A82C270</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="ACDC27BB-800F-2ACD-E06B-D5005BFA5AC5">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2F7EA4FD-48E9-F1C6-FEBE-BA2F987FF3E2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;VIGENTE&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8F0619B-D4D7-A7C0-811D-C0C047247418" name="PK_TARIFA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>463D717B-A12D-72AC-C905-EA9E222EA0CE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543FF89F-6CCF-DF54-0345-516C6EEF511C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="027C2627-0CB4-DAA9-E90E-82A002A190FC" name="UQ_TARIFA_COD_VIG">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2EA85F6D-8F1B-CBA4-A015-DA2DD687F570</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D94B1A2-A879-F79A-9273-0B9CBDA6D4EC"/>
+<colUsage columnID="7CDFE54A-0A4F-745D-22F5-0E87E9B0CF5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_TARIFA_PRODUCTO" directorySegmentName="seg_1" id="E5F5E227-DB1C-1B85-5DA1-57FBE3AD9828">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EFFE1E65-CD76-9AF9-C8A6-108E993D6731</importedID>
+<rule><![CDATA[PRODUCTO IN ('VIAJE_INDIVIDUAL','PASE_DIARIO','PASE_SEMANAL','PASE_MENSUAL','TARIFA_REDUCIDA','PASE_ESTUDIANTIL')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TARIFA_TIPO_PAS" directorySegmentName="seg_1" id="C74373D7-99CF-0EAC-BB8B-ED153FF6E837">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B0DB1873-7AEB-1E83-C2E4-6F4D90DB6057</importedID>
+<rule><![CDATA[TIPO_PASAJERO IN ('REGULAR','ESTUDIANTE','ADULTO_MAYOR','DISCAPACIDAD','EMPLEADO_AUTORIZADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TARIFA_MONTO" directorySegmentName="seg_1" id="450ADC2A-45A1-FC41-B948-FA06177277E5">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AACCDBF6-359F-C36A-96AB-7653C6E9E675</importedID>
+<rule><![CDATA[MONTO >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TARIFA_VIGENCIA" directorySegmentName="seg_1" id="EFC116EC-5A79-3BEA-7E7A-A5D67B5D0620">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>53A0C5F5-42AE-621A-3180-A8125330AC83</importedID>
+<rule><![CDATA[FECHA_FIN_VIGENCIA IS NULL OR FECHA_FIN_VIGENCIA >= FECHA_INICIO_VIGENCIA]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TARIFA_MAX_VIAJES" directorySegmentName="seg_1" id="44792203-276A-2C28-5A82-CE6FBCFF9D10">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1A8D2197-628B-F1BD-C39E-099875A4448E</importedID>
+<rule><![CDATA[MAX_VIAJES > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TARIFA_DURACION" directorySegmentName="seg_1" id="A6E4CC10-E2E8-C329-0D5B-CC27BFF02314">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>07E86637-D376-C53A-2E80-28B1A20A1F0D</importedID>
+<rule><![CDATA[DURACION_DIAS > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TARIFA_ESTADO" directorySegmentName="seg_1" id="36837C53-DC0E-8B86-9A7B-C8B0BB39B774">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3A1FF537-FE7F-218C-BE9C-E370618E5E1C</importedID>
+<rule><![CDATA[ESTADO IN ('VIGENTE','VENCIDA','INACTIVA')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

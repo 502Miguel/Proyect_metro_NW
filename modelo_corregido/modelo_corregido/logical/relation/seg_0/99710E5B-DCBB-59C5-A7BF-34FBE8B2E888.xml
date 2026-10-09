@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TARJETA_TARIFA" directorySegmentName="seg_0" id="99710E5B-DCBB-59C5-A7BF-34FBE8B2E888">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>A9A415FA-77CB-B0F2-99CB-B83EC2EB6BC7</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>1B3A7DF3-FE11-F30E-61BC-8A77BAA59E72</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F017B01F-C78D-EF25-436D-FD384846A2DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5131488-1D8A-E07D-B808-097B7661C28C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

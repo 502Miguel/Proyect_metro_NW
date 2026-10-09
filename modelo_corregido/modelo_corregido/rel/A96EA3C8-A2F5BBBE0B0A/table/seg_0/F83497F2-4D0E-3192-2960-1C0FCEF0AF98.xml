@@ -1,0 +1,285 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F83497F2-4D0E-3192-2960-1C0FCEF0AF98" name="ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3E9D4BF5-3688-867E-920B-794F245AD078</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTACION" id="65341189-6DB9-D4F4-949F-CA2E9CE9CC30">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8200305E-6DF6-FF4C-79A0-3480254DAFA7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CODIGO_ESTACION" id="B9A74FA7-A88F-0C26-6EA2-5E6E8F662460">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3E7851F2-5D8E-6FDD-A80B-B6FBEE0E2783</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="DEA28437-63AF-1368-460C-9C113B29CA88">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>6E15EEF0-5480-26ED-14A0-0DB436B80D5C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D3C2364F-EDA3-AC15-6FE5-A415CD297D48</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="36EFE6CC-F2C9-A120-9D9A-92C2689D077A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>37B6307D-94C9-4E3F-6D7B-FCDBA4BD3930</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>14192929-F868-0C38-03DD-3BC806D98B73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOROUGH" id="CDA569CE-A552-D71E-3662-F322897B6F83">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AF18EC86-255E-D8C3-86F5-BB78FBAEDB09</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="63F8C348-26CD-E0A3-DE99-079B0462DF0F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AA4B265F-3D23-EE18-60AB-E6421CC69E6C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20289128-9FD0-0B43-42A1-06CD88E5CFAF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="A798FA1C-CFA2-9562-3DD5-5D8934046E0A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F5DB15C2-CE53-D27C-4288-1CD9AAEA492A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20289128-9FD0-0B43-42A1-06CD88E5CFAF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INAUGURACION" id="ECBB93F3-7C87-D3BD-895D-06DAD54836D8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>0F63C222-1A63-6979-A089-8FF54D280D9E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_ACCESOS" id="42316A00-BEBA-DDBC-507F-9EBEF997E6A3">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>851A82E2-6D59-D79E-86DF-51D498BD52F8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PLATAFORMAS" id="690BC79F-AD4D-5163-1117-F10910CBD2EE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3750D9B2-8C1E-3162-6E8E-CA851218F82D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>49B161B3-1691-0D8C-FAEC-2AA99B29B0B2</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ESTACION" id="8F5A8A2E-08AC-1160-A628-C09B515515B0">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B36A8F1D-5136-0358-9900-77C3CC34D01C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_OPERATIVO" id="347C3D93-F870-30F0-2AF4-954A787AB1A1">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7878B732-C343-3DE8-6BEC-64E718D56FA7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;OPERATIVA&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO_FUNCIONAMIENTO" id="CE1AC988-4087-FE47-2AD4-8EE141CC71AC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B5A343FA-7B18-363C-7AEA-0D0E77676B49</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C20390F-EE04-96AE-A926-275BFFBA223E</domain>
+<defaultValue>&apos;24 HORAS&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESIBLE_DISCAPACIDAD" id="C113FDDB-2515-BEB2-3D83-C5901796EC15">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>DCB7D0DB-7687-AC75-85F2-ABCE87C28D93</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>89B9E2DA-9349-04B6-72AD-3212FB303BE6</domain>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1FA9820-4278-D449-3889-75C174AF11F2" name="PK_ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3AF855F8-37AD-D024-03E3-0B000F52EB29</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65341189-6DB9-D4F4-949F-CA2E9CE9CC30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BB2092F-1E02-57FF-D883-FE63BC19C206" name="UQ_ESTACION_CODIGO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>622A0379-7496-39FA-6A45-0377058D29AD</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A74FA7-A88F-0C26-6EA2-5E6E8F662460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_ESTACION_BOROUGH" directorySegmentName="seg_0" id="450A9D22-60B1-D132-7075-BC57031D0587">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B05346AE-918D-DCA5-6995-98B2465687E7</importedID>
+<rule><![CDATA[BOROUGH IN ('MANHATTAN','BROOKLYN','QUEENS','THE BRONX','STATEN ISLAND')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ESTACION_TIPO" directorySegmentName="seg_0" id="80188787-C952-FFD7-59C9-9D875569E9CA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A24647D1-FD38-23E9-0C62-7EE056202B03</importedID>
+<rule><![CDATA[TIPO_ESTACION IN ('LOCAL','EXPRESA','TERMINAL','TRANSFERENCIA')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ESTACION_ESTADO" directorySegmentName="seg_0" id="E2EBDB15-44B2-F625-CEE9-23B18B061ECA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CFCA48ED-0AA0-CAC8-BD2E-C64D4D3BD18D</importedID>
+<rule><![CDATA[ESTADO_OPERATIVO IN ('OPERATIVA','CERRADA_TEMPORAL','CERRADA')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ESTACION_ACCESIBLE" directorySegmentName="seg_0" id="853AF4B6-7FE3-1714-2771-FE8B7A72340B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2EB51C71-44D9-BABA-9561-E64C6D6E2117</importedID>
+<rule><![CDATA[ACCESIBLE_DISCAPACIDAD IN ('S','N')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ESTACION_LATITUD" directorySegmentName="seg_0" id="16F364CF-46B4-000E-AA59-4EDFC2EDB12A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B83512F6-923A-F48B-7FC6-3F0A116B3786</importedID>
+<rule><![CDATA[LATITUD BETWEEN -90 AND 90]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ESTACION_LONGITUD" directorySegmentName="seg_0" id="5D383282-4371-42A9-7D96-25B7F3806923">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1B87DEA3-533E-4995-B888-747A757CDFF2</importedID>
+<rule><![CDATA[LONGITUD BETWEEN -180 AND 180]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ESTACION_ACCESOS" directorySegmentName="seg_0" id="737EDCD1-3A99-CCD1-2744-020CA0D3ADEC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>42E08FBC-DFC7-A897-DBF5-FA4F02789EEC</importedID>
+<rule><![CDATA[CANTIDAD_ACCESOS >= 1]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_ESTACION_PLATAF" directorySegmentName="seg_0" id="0BE136A9-E550-6166-D0DC-4323FB306666">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>6494A0B3-1DD6-3B98-05D7-6C81D0073BD0</importedID>
+<rule><![CDATA[CANTIDAD_PLATAFORMAS >= 1]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

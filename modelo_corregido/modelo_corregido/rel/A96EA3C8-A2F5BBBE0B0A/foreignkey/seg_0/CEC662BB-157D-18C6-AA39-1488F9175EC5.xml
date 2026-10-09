@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEC662BB-157D-18C6-AA39-1488F9175EC5" containerWithKeyObject="061A8010-1902-0639-0269-452CE6632B33" localFKIndex="9A15B539-2349-93A2-2A51-739B339FF998" name="FK_RECARGA_ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CFA6B89A-54E1-7277-8C64-B258321F15E7</importedID>
+<referredTableLongName>ESTACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F83497F2-4D0E-3192-2960-1C0FCEF0AF98</referredTableID>
+<keyObject>C1FA9820-4278-D449-3889-75C174AF11F2</keyObject>
+<referredKeyID>C1FA9820-4278-D449-3889-75C174AF11F2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_ESTACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

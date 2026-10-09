@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17CADE65-1870-D4C7-F135-17C81F9060B6" containerWithKeyObject="E33B0410-B68E-575C-2C29-60AAB9E6E86B" localFKIndex="CA1F453A-450C-EA7A-57E7-B6D15FE5AF7C" name="FK_TURNO_ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5F8F7558-28C2-20E6-C755-3E5BCF960AED</importedID>
+<referredTableLongName>ESTACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F83497F2-4D0E-3192-2960-1C0FCEF0AF98</referredTableID>
+<keyObject>C1FA9820-4278-D449-3889-75C174AF11F2</keyObject>
+<referredKeyID>C1FA9820-4278-D449-3889-75C174AF11F2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_ESTACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

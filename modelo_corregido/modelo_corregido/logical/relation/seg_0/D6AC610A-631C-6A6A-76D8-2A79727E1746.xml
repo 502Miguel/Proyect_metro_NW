@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VIAJE_HORARIO" directorySegmentName="seg_0" id="D6AC610A-631C-6A6A-76D8-2A79727E1746">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>9E79A3E4-9BF7-17EF-AFB9-7677F443EAC1</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>8D8B4305-F409-5978-C773-D5ADC25641D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B4BE43A7-720A-179B-3941-E29BF61B349A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9341D2B0-CADC-F35D-4D06-96BAD094256E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

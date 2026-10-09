@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63384B2E-8983-0E9B-7D53-BC05AE813823" name="COMPOSICION_TREN">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F9EEAB97-A3C6-9742-C4FB-A68F2356A5C9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPOSICION" id="D4C9FB78-4820-0F5E-9855-4C27124E95C8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1942C714-5117-4EEF-0ABD-8B8D53F0B21A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_TREN" id="12C26ABB-0BAC-CEA1-499C-BE2143BDA40A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E48195F5-CA90-21C2-B7C9-77F014949EAB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E74632B-50CA-3E60-843A-09F98585FFEB" referredColumn="BD10F292-5DF4-863B-69CC-EFC9DBD35951"/>
+</associations>
+</Column>
+<Column name="ID_VAGON" id="59517029-EB74-3FA3-1BA3-DF413A914C27">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EB4BE534-1CC2-6E90-D9A0-E8A695B9FC3A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A705EE4F-CC76-9B0D-DB88-BB9D15C96474" referredColumn="A9F01FFA-9ABB-B84E-881A-3377BEFD5C1C"/>
+</associations>
+</Column>
+<Column name="POSICION" id="2C5947E8-3F67-7319-CA0A-CD967C9786BD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4C5CEBBF-DC07-7B71-884B-355603EC7A0F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>49B161B3-1691-0D8C-FAEC-2AA99B29B0B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="1BDEF9CB-8689-BF50-4D3E-3A86F560CEA3">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>727EAF1A-5CE6-4EBC-81F3-82C99556327F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="D33C6541-D798-FD21-A490-7DBCE9DFBB59">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>726B13FF-776E-7EE1-0928-EC9F1DCB9A7B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E528E1F0-D742-7577-30AA-F6D971C02701" name="PK_COMPOSICION_TREN">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5F0B5D16-9E5D-0500-E4D7-12C25CDD48D9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4C9FB78-4820-0F5E-9855-4C27124E95C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B42711B-722D-D01D-6ED6-CD1B6ADA93D2" name="UX_COMPOS_VAGON_ACTIVO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>FEEFF19D-E0E7-B818-CEDB-3E1B44068EDB</importedID>
+<indexExpression>CASE WHEN FECHA_FIN IS NULL THEN ID_VAGON END</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="8BC48F6F-A422-83CF-471D-013EB6CAE684" name="UX_COMPOS_POSICION_ACTIVA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>21BE0BCE-A036-4A4A-60D6-95109DB4C907</importedID>
+<indexExpression>CASE WHEN FECHA_FIN IS NULL THEN ID_TREN END, CASE WHEN FECHA_FIN IS NULL THEN POSICION END</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="93AEB215-3067-EEF4-9851-B5D6AA373D82" name="FK_COMPOS_TREN">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12C26ABB-0BAC-CEA1-499C-BE2143BDA40A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="291C0A0F-1FE4-1D91-1026-403D23E2D506" name="FK_COMPOS_VAGON">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59517029-EB74-3FA3-1BA3-DF413A914C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_COMPOS_POSICION" directorySegmentName="seg_0" id="87D2F2E2-A434-60F6-54A1-9D0FE1995A84">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>216130DC-4476-B558-C968-E712E63E4D6A</importedID>
+<rule><![CDATA[POSICION >= 1]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_COMPOS_FECHAS" directorySegmentName="seg_0" id="E422F096-2AB6-CD04-D297-7D9DBCF2DFCE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>DE6BBB7F-9DD4-A0C9-8704-F02479C1A9A4</importedID>
+<rule><![CDATA[FECHA_FIN IS NULL OR FECHA_FIN >= FECHA_INICIO]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

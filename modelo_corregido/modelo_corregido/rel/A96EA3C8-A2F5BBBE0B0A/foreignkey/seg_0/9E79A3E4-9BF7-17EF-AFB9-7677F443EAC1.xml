@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E79A3E4-9BF7-17EF-AFB9-7677F443EAC1" containerWithKeyObject="961EE3E2-662A-54AB-C18B-C09872F828EB" localFKIndex="16F81DC5-448E-FCBB-E102-4C050C7B3E99" name="FK_VIAJE_HORARIO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1A12C296-423B-B2F7-04E2-1AC56EF5641D</importedID>
+<referredTableLongName>HORARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFC4C28E-C6FA-BC61-49AE-A5F5326B3047</referredTableID>
+<keyObject>12365DE2-7612-3689-62F4-8E3DA30D7AFC</keyObject>
+<referredKeyID>12365DE2-7612-3689-62F4-8E3DA30D7AFC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_HORARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

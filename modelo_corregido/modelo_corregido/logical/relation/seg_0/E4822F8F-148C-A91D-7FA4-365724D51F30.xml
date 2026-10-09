@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VIAJEPAS_TARIFA" directorySegmentName="seg_0" id="E4822F8F-148C-A91D-7FA4-365724D51F30">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>BE608A4D-7D5E-02E8-9DB0-A12CD531DA5D</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>1B3A7DF3-FE11-F30E-61BC-8A77BAA59E72</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F017B01F-C78D-EF25-436D-FD384846A2DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>18E05DB6-DB1F-AFFE-3E5A-44D57C7AF953</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_INCVIAJE_INCIDENTE" directorySegmentName="seg_0" id="A6071181-55DB-B4D5-F3EC-D43709EE5130">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>B6224F3F-E019-9E9A-0EB5-4521D3F6E092</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>4BACFCBE-5106-199A-B799-A88FE5B94052</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5E83897F-1D7D-C9D7-B8E4-5D9B885C8EA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80F2978C-01CF-1DCE-33C4-DF3B4749740B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

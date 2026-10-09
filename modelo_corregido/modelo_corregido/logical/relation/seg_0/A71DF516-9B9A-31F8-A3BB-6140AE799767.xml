@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LINEST_ESTACION" directorySegmentName="seg_0" id="A71DF516-9B9A-31F8-A3BB-6140AE799767">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>B744BB0C-F9AB-F66B-0BEA-FB33DF763D1B</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>00EB2ABE-CBFE-88AF-8F61-49329FC2A3A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FD9A6BF-A6D9-892A-40A5-EC212AEDFB07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8857C07D-EBBD-BED2-9B3A-82EDCAA0A890</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

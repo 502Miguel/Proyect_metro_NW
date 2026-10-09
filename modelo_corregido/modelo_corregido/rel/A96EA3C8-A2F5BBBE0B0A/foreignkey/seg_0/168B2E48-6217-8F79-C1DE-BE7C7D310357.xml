@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="168B2E48-6217-8F79-C1DE-BE7C7D310357" containerWithKeyObject="E2453B8F-11BB-CFCE-6F99-E5B2B6C356E3" localFKIndex="27AA5A8F-0784-BC39-41B7-306E4B558F8A" name="FK_TREN_DEPOSITO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1FA0BF5F-3C2A-ACD9-8F2D-A0A5897FBA9D</importedID>
+<referredTableLongName>DEPOSITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>272F3A4D-8E79-48E6-4D61-9F33FE647ABC</referredTableID>
+<keyObject>9F54086B-83BD-C2FE-A92D-D8AC1456F4A3</keyObject>
+<referredKeyID>9F54086B-83BD-C2FE-A92D-D8AC1456F4A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DEPOSITO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

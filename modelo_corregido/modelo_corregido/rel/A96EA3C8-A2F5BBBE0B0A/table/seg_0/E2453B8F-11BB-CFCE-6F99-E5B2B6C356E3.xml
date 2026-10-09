@@ -1,0 +1,235 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2453B8F-11BB-CFCE-6F99-E5B2B6C356E3" name="TREN">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>01425A9B-6DAF-04AE-F963-473ADD11ED22</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TREN" id="BD10F292-5DF4-863B-69CC-EFC9DBD35951">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>921BBBA4-31B0-91B8-5EB0-A6E256B969BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CODIGO_INTERNO" id="C19CED98-72B6-4A0A-C24D-4C8CCA8637F4">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>035D917A-7E03-8EE0-78BB-1A98AA010ED0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MODELO" id="A3CE889C-09E3-42F3-33CC-A5E245B4D9A1">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>20661289-1ECB-8832-9F2A-DF540010FA6A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58AC621F-B822-1101-7023-C62899771CAC" referredColumn="463051D6-834C-F20A-9195-9D369EBC7D1F"/>
+</associations>
+</Column>
+<Column name="ANIO_FABRICACION" id="338A11A9-EB9A-AAAC-6AC8-C3E0585BF3FF">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B6F3A687-4C51-8CDC-520A-A66EEE4D13A3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8D5F80E-17B4-7B1E-5D6A-303559000083</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDAD_TOTAL" id="3207F30E-E30E-D05B-4EDA-7F57F963BD02">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>FEA74EB2-7B55-6E54-DBAB-EF139D760BDD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>70124D63-BF51-400F-08F6-7DA80E086332</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_OPERATIVO" id="CFC9333A-9458-E716-E342-BF51F919108B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>575CB99B-D314-49E7-6071-1C76FA0BCC2A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;DISPONIBLE&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KILOMETRAJE_ACUMULADO" id="9AF3BC4A-EDB4-EAC4-7021-4C84BDDF07DA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3EE0D60E-4AA2-DF68-FEA1-910DA60896C3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EBEF6574-5A91-8151-A1B4-FD76AEA79107</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DEPOSITO" id="856A3FC5-7A58-4EF4-C12E-6A99239B43E1">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5EC78E07-4EFA-7742-F080-2A00CB70C3BE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="168B2E48-6217-8F79-C1DE-BE7C7D310357" referredColumn="408B8BE4-52A1-2B28-F906-98BE35C09E6F"/>
+</associations>
+</Column>
+<Column name="FECHA_ULTIMA_INSPECCION" id="5EDEDB62-EC9D-297C-1545-49FCD8A217A6">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>177C372D-D5DD-4BC8-34B9-716243478D04</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PROXIMA_INSPECCION" id="2D149EBE-6B53-A2F5-CCBA-4247B407E730">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>29C73B4D-5830-954C-0881-E3031DC4759A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD4CECD5-A1AD-3F26-3A1F-5F9A7A8421C4" name="PK_TREN">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F8FEB639-EA3F-DED9-98F4-F73F004ABD0D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD10F292-5DF4-863B-69CC-EFC9DBD35951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="646DCA5A-C2DE-E93A-A4FF-E59D8E90989E" name="UQ_TREN_CODIGO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F53116A8-5BF1-4879-8576-66B3B3240D37</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C19CED98-72B6-4A0A-C24D-4C8CCA8637F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27AA5A8F-0784-BC39-41B7-306E4B558F8A" name="FK_TREN_DEPOSITO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="856A3FC5-7A58-4EF4-C12E-6A99239B43E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32A2D080-3665-D0F7-C5B6-4BBAFB14CAB1" name="FK_TREN_MODELO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3CE889C-09E3-42F3-33CC-A5E245B4D9A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_TREN_ESTADO" directorySegmentName="seg_1" id="06BC4710-A639-7B9F-734B-15569D19E08A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>167AF23C-F173-750D-81F4-5163B1A15DBE</importedID>
+<rule><![CDATA[ESTADO_OPERATIVO IN ('DISPONIBLE','EN_OPERACION','EN_MANTENIMIENTO','FUERA_DE_SERVICIO','RETIRADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TREN_ANIO" directorySegmentName="seg_1" id="B8228CBF-369B-51C7-EDE8-48DC3CD9B84C">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F9A1AEF4-AD05-DA43-E11F-4BE622F543C0</importedID>
+<rule><![CDATA[ANIO_FABRICACION BETWEEN 1900 AND 2100]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TREN_CAPACIDAD" directorySegmentName="seg_1" id="302764A9-2B41-153E-1525-FAE2367D1FB0">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>FEE44CDA-8FE7-D8F9-98CA-53027F8A50F8</importedID>
+<rule><![CDATA[CAPACIDAD_TOTAL > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TREN_KM" directorySegmentName="seg_1" id="81CE7DA9-1261-712F-8CFB-EE974F434E9E">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>76CB7357-062E-C67F-38B8-3BDE232A3429</importedID>
+<rule><![CDATA[KILOMETRAJE_ACUMULADO >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_TREN_INSPECCION" directorySegmentName="seg_1" id="15D67653-0C1F-2056-819C-5FD7A725AE9A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E0A4182B-6CE5-5993-967F-CD5005828075</importedID>
+<rule><![CDATA[FECHA_PROXIMA_INSPECCION IS NULL OR FECHA_ULTIMA_INSPECCION IS NULL OR FECHA_PROXIMA_INSPECCION >= FECHA_ULTIMA_INSPECCION]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

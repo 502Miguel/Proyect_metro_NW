@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LINEST_LINEA" directorySegmentName="seg_0" id="71434ED0-6A3B-9511-F8F3-2BCE531D3AB7">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>52DB34A8-D8B9-2955-D164-C5BD2F19822C</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>78B96546-A62A-CFF5-518C-1E135D95A3D3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A99DBF25-9DA4-E017-1947-2E230BE76018</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8857C07D-EBBD-BED2-9B3A-82EDCAA0A890</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

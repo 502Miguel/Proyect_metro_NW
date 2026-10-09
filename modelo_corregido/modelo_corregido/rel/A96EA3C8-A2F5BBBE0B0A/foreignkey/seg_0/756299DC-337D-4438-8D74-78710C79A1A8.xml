@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="756299DC-337D-4438-8D74-78710C79A1A8" containerWithKeyObject="06838F1C-3040-C0EB-1256-BF90E4E72A82" localFKIndex="6C837862-0B88-082D-BA1E-10501FB617E2" name="FK_INCELEM_INCIDENTE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C19D4E91-7A5C-FE7D-EA9D-7C379F9D6DDD</importedID>
+<referredTableLongName>INCIDENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00CB6D83-A0F0-9B5C-58B9-806AF6540808</referredTableID>
+<keyObject>614F958B-E309-F0D8-8200-18FB6FB9D2CA</keyObject>
+<referredKeyID>614F958B-E309-F0D8-8200-18FB6FB9D2CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_INCIDENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

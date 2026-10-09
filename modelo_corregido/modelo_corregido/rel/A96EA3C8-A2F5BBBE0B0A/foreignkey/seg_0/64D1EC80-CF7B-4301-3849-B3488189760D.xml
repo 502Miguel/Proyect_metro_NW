@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="64D1EC80-CF7B-4301-3849-B3488189760D" containerWithKeyObject="B78A6021-3355-0699-F714-1D73C1B6ED5D" localFKIndex="431CDDC1-DFF7-A99E-D92E-1C842CB78AC4" name="FK_RUTA_EST_DESTINO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D7E3340B-9FC7-8CF7-AE95-69995BFBA070</importedID>
+<referredTableLongName>ESTACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F83497F2-4D0E-3192-2960-1C0FCEF0AF98</referredTableID>
+<keyObject>C1FA9820-4278-D449-3889-75C174AF11F2</keyObject>
+<referredKeyID>C1FA9820-4278-D449-3889-75C174AF11F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

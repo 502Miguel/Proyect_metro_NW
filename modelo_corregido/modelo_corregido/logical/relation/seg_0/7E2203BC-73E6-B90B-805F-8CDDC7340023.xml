@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TURNO_EMPLEADO" directorySegmentName="seg_0" id="7E2203BC-73E6-B90B-805F-8CDDC7340023">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>4A884DDF-524D-BC95-A3A0-73DA2D132102</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>DB39B462-011B-E300-7531-C6D7D586FFAF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4391E942-E8FC-0428-8C5F-8BDB63028ACA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16F571E7-1038-0F2B-2DDF-3A5C841ED69B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
