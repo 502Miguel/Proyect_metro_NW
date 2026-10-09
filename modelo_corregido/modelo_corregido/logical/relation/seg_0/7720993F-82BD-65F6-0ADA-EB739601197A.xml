@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RUTA_LINEA" directorySegmentName="seg_0" id="7720993F-82BD-65F6-0ADA-EB739601197A">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>60D74AD0-537C-29D2-CCB8-FACF897B2BFB</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>78B96546-A62A-CFF5-518C-1E135D95A3D3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A99DBF25-9DA4-E017-1947-2E230BE76018</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B51186D-597D-ED64-2846-40727EA76494</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

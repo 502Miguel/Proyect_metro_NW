@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_INCELEM_LINEA" directorySegmentName="seg_0" id="535128F8-DAC6-EDDD-CBE8-451EA54E7163">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>4819A7C1-5C99-54CA-F180-FEADE0CD6DA8</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>78B96546-A62A-CFF5-518C-1E135D95A3D3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A99DBF25-9DA4-E017-1947-2E230BE76018</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B084139C-6FE7-4278-8BE3-DC21FF0409B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

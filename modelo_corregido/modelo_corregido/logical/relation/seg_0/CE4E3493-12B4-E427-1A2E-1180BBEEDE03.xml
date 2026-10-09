@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VIAJE_TREN" directorySegmentName="seg_0" id="CE4E3493-12B4-E427-1A2E-1180BBEEDE03">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>9632DD32-73FB-624D-90B1-76370FCD2459</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>DA94237E-5EB4-9881-00F1-A2C042A2DDEF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4800012-1C5A-16C2-7409-1CCA9E898185</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9341D2B0-CADC-F35D-4D06-96BAD094256E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

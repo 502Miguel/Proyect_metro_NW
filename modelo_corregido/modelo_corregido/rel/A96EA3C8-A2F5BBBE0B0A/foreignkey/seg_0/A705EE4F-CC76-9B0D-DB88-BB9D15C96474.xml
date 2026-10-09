@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A705EE4F-CC76-9B0D-DB88-BB9D15C96474" containerWithKeyObject="63384B2E-8983-0E9B-7D53-BC05AE813823" localFKIndex="291C0A0F-1FE4-1D91-1026-403D23E2D506" name="FK_COMPOS_VAGON">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D9FAE191-B05C-FFC2-BE82-2685E3FE8077</importedID>
+<referredTableLongName>VAGON</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68826B58-3C3F-4117-D431-4DD184A786F3</referredTableID>
+<keyObject>3BCAA50D-2B9C-1CFE-2BCE-0C1ABC89591D</keyObject>
+<referredKeyID>3BCAA50D-2B9C-1CFE-2BCE-0C1ABC89591D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_VAGON</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

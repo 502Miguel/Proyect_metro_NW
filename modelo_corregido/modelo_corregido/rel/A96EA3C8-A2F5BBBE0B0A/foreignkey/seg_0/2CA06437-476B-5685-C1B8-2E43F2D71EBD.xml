@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CA06437-476B-5685-C1B8-2E43F2D71EBD" containerWithKeyObject="E33B0410-B68E-575C-2C29-60AAB9E6E86B" localFKIndex="9DE19C9F-6328-CFD8-1AB5-47AFEFDA74A4" name="FK_TURNO_SUSTITUTO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>870558C5-B760-6482-A4F9-A7C95842239F</importedID>
+<referredTableLongName>EMPLEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2ADFBD20-B128-15F6-ADE1-A8BA750F4CD4</referredTableID>
+<keyObject>7A79D8B2-EB8B-F858-A248-8BD0A0BD373F</keyObject>
+<referredKeyID>7A79D8B2-EB8B-F858-A248-8BD0A0BD373F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_EMPLEADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

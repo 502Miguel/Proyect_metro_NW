@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0292921-4BB6-5B6D-D6A7-AA61D32B1C5B" name="LINEA_ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B18A348D-B795-FCA6-C114-181E026CC98F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LINEA_ESTACION" id="5F59DFBE-26B0-F10D-FA47-92775AB84749">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B1E921F6-5E06-39A7-F9D7-C9CAD0822D98</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="COD_LINEA" id="E8231E65-8024-47EF-4099-23B2E0EA584B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D28F667A-8BB1-E6B8-4E71-ECAB9EA64475</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52DB34A8-D8B9-2955-D164-C5BD2F19822C" referredColumn="D53E0F15-7E38-3D90-8F9E-0A21CBED2997"/>
+</associations>
+</Column>
+<Column name="ID_ESTACION" id="620DECD3-CC25-8E6C-F884-C19BAD5B0504">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>022B1B32-2AB4-188B-23D1-2323CBCA5FD8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B744BB0C-F9AB-F66B-0BEA-FB33DF763D1B" referredColumn="65341189-6DB9-D4F4-949F-CA2E9CE9CC30"/>
+</associations>
+</Column>
+<Column name="NUMERO_SECUENCIA" id="85E04144-51B7-619F-03F4-CA1BF00F27C3">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4A78CF7B-93D7-2508-4623-8E9CD1A7E794</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTANCIA_KM_ANTERIOR" id="54948367-E872-D98B-41BE-CFDFBBEFE647">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A7CAD26D-B514-28AF-4820-33D40B5F3C11</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1C3343DE-71D8-D2F5-4804-55F441C43FAF</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIEMPO_MIN_ANTERIOR" id="6229ED60-527B-4E5B-90B3-8E1E195856C8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2C4475DB-9F66-A1F1-6EFA-E4BB3857F053</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC76B8DB-7CB7-60CD-C521-A38ADC7C5962</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67A9BD9E-4191-5A95-46C6-33F809E980EF" name="PK_LINEA_ESTACION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>77A2838C-D6E0-46E0-BA1E-69C9A2F67679</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F59DFBE-26B0-F10D-FA47-92775AB84749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77BFE055-E083-3DC7-AE14-2D3EDF2CBB73" name="UQ_LINEST_LINEA_EST">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3E43F33B-7E0B-4FDB-396C-2E5F6F54008E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8231E65-8024-47EF-4099-23B2E0EA584B"/>
+<colUsage columnID="620DECD3-CC25-8E6C-F884-C19BAD5B0504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B93D9EE-FFBD-96C1-709C-C25F0D47EA2C" name="UQ_LINEST_LINEA_SEC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2C0507F1-FDE7-0F71-B499-2F757AFB10A8</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8231E65-8024-47EF-4099-23B2E0EA584B"/>
+<colUsage columnID="85E04144-51B7-619F-03F4-CA1BF00F27C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB2634A3-BC19-3531-C0B5-9B7AC08FA309" name="FK_LINEST_ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="620DECD3-CC25-8E6C-F884-C19BAD5B0504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB29FB2D-85B8-5973-0265-CD16F81E867A" name="FK_LINEST_LINEA">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8231E65-8024-47EF-4099-23B2E0EA584B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_LINEST_SECUENCIA" directorySegmentName="seg_0" id="62FD58C8-DC98-1E26-C69D-4075D9ADB1DB">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E0F13408-C694-ECEF-8ABC-1EB03D5A8193</importedID>
+<rule><![CDATA[NUMERO_SECUENCIA >= 1]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_LINEST_DISTANCIA" directorySegmentName="seg_0" id="A667AAD8-4E31-CF23-39DE-52735A962F9F">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8D9721E5-B8D5-FD2B-6100-4A60E7F4F162</importedID>
+<rule><![CDATA[DISTANCIA_KM_ANTERIOR >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_LINEST_TIEMPO" directorySegmentName="seg_0" id="11FB64DA-12A5-29F5-9ED8-F32A9F907819">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>70A0F092-1A9B-AE39-54CE-A20B6E0368B4</importedID>
+<rule><![CDATA[TIEMPO_MIN_ANTERIOR >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

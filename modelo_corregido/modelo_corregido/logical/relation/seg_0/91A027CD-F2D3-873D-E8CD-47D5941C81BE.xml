@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_INCELEM_ESTACION_FIN" directorySegmentName="seg_0" id="91A027CD-F2D3-873D-E8CD-47D5941C81BE">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>360BDC6C-C25F-C0A4-7AA3-6792563427AC</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>00EB2ABE-CBFE-88AF-8F61-49329FC2A3A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FD9A6BF-A6D9-892A-40A5-EC212AEDFB07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B084139C-6FE7-4278-8BE3-DC21FF0409B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

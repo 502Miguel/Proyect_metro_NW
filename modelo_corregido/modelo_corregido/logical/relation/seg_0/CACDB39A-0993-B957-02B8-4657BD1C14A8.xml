@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EMPLEADO_SUPERVISOR" directorySegmentName="seg_0" id="CACDB39A-0993-B957-02B8-4657BD1C14A8">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>79182519-7000-7731-9621-C5FDCD28D5B5</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<targetPk>DB39B462-011B-E300-7531-C6D7D586FFAF</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4391E942-E8FC-0428-8C5F-8BDB63028ACA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4391E942-E8FC-0428-8C5F-8BDB63028ACA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

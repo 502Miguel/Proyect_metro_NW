@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="061A8010-1902-0639-0269-452CE6632B33" name="RECARGA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AB3D75FA-EA93-0CD6-1CAC-477EFABB026E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RECARGA" id="F0FD739F-4BDC-9D6B-0675-ED26A620A72D">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>64A2295D-F769-89D6-DA86-FAB58FE6A3D7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NUMERO_TRANSACCION" id="471A5F58-5039-04AE-E83C-389AB967322A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7FF961A9-A45E-6D70-1AA7-6CEC05D706AA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72F2F846-024B-B3D1-259A-26013520DEA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_TARJETA" id="3DCCBF6A-53B0-F341-809F-0A1EB08B4D17">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>AA2F3AF2-F9C4-338C-BD70-AEC16CF4B1B5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="000F7D05-FBD3-7E39-3B41-94B1F14F9DFD" referredColumn="7FF5F54E-DC9C-A932-10EE-2A25D304BA16"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA" id="2DB7B00B-80AD-F9E8-7946-93D9B51F6E57">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>6BD4B57B-3ACF-ABCE-E703-A5C54614C6D6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="2A5DAEDE-F053-9E45-9917-8932E7E69FC7">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>36816F22-F5F9-B407-8F5A-D6AE209F1ACF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>13884C22-81CB-14F9-6B26-A260AD625F89</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDIO_PAGO" id="0D7F0A4A-1902-583D-4E05-77B9E6B018DD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D9EDCB4E-AAF1-8740-7692-3BC63C607BA0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANAL" id="771A0DAD-0A68-571D-149C-A329A4DD171A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F93B30C4-22A1-64D3-BC57-B2DA0F3961D8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTACION" id="E302A3C2-5540-6126-7B10-0EE22683BE79">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C450078A-2517-F7F5-675A-F0286DDAA844</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEC662BB-157D-18C6-AA39-1488F9175EC5" referredColumn="65341189-6DB9-D4F4-949F-CA2E9CE9CC30"/>
+</associations>
+</Column>
+<Column name="SALDO_ANTERIOR" id="B294F472-FC93-1BDB-D2CF-4DEAA7C5E08C">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>A500D41A-8C1B-9A86-02CB-6836DAF3263B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EBEF6574-5A91-8151-A1B4-FD76AEA79107</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALDO_POSTERIOR" id="C5B1372D-CA06-8272-7DBB-53C6AA740E46">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D30FEF53-9D5B-AEA0-70F9-ABC62E0D6A63</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EBEF6574-5A91-8151-A1B4-FD76AEA79107</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B04A594D-077E-E681-CE5C-372F3E4FB3C4" name="PK_RECARGA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B8A0EEBF-C8BA-A8FE-D5F8-F58F618E7E1E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0FD739F-4BDC-9D6B-0675-ED26A620A72D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38321050-FC36-9E99-904A-296879307143" name="UQ_RECARGA_TRANSACCION">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4BC64827-77E8-AE1A-BD41-D81FA41B3B6D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="471A5F58-5039-04AE-E83C-389AB967322A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A15B539-2349-93A2-2A51-739B339FF998" name="FK_RECARGA_ESTACION">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E302A3C2-5540-6126-7B10-0EE22683BE79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F22E4C7-9127-E8EB-F93F-3DAC203AC4DC" name="FK_RECARGA_TARJETA">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DCCBF6A-53B0-F341-809F-0A1EB08B4D17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_RECARGA_MONTO" directorySegmentName="seg_1" id="42403CFE-96B7-C439-1342-E226C0281FFD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>4F22229E-96F8-5AD5-6CA2-5BBB9B896EC3</importedID>
+<rule><![CDATA[MONTO > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_RECARGA_MEDIO" directorySegmentName="seg_1" id="BEBDA806-5D8B-D06F-3750-6438D0886EA3">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B395F3A1-3DDD-88B8-ACC0-609772AEAFE4</importedID>
+<rule><![CDATA[MEDIO_PAGO IN ('EFECTIVO','TARJETA_CREDITO','TARJETA_DEBITO','MOVIL')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_RECARGA_CANAL" directorySegmentName="seg_1" id="EECCFD22-5F63-3C69-AABF-DF94E9CCAC10">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>ACF9C0A9-2BB3-A695-2154-9A8F4BFFCC46</importedID>
+<rule><![CDATA[CANAL IN ('ESTACION','WEB','APP','TIENDA_AUTORIZADA')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_RECARGA_CANAL_EST" directorySegmentName="seg_1" id="A54E163B-2A20-AE2E-417F-639CD035DA45">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>EE23B8B8-0637-CEBB-D9EB-8DA8A340EB92</importedID>
+<rule><![CDATA[CANAL <> 'ESTACION' OR ID_ESTACION IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_RECARGA_SALDOS" directorySegmentName="seg_1" id="D95E1784-47A5-5054-07F4-9E9DCD4211CA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>60793045-0DF0-A8F1-47CF-1B9BC8AFDAEE</importedID>
+<rule><![CDATA[SALDO_ANTERIOR >= 0 AND SALDO_POSTERIOR = SALDO_ANTERIOR + MONTO]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CERTMOD_CERT" directorySegmentName="seg_0" id="59B5007A-20B5-F90A-2482-6B902E27B429">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>B6E091BB-913A-B9BB-6C5E-BFE3F9DEE5F8</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>48175A38-E30E-1229-D102-052860E8F085</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1F52EE6-E220-3074-67A9-87BAE7D7AE14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>458314BC-7743-C3EF-8F95-C3039370291B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

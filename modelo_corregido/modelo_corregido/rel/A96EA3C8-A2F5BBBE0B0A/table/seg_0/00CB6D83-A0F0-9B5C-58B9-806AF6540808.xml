@@ -1,0 +1,267 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00CB6D83-A0F0-9B5C-58B9-806AF6540808" name="INCIDENTE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7EF27847-A994-FC4C-29E8-2B7592F18F0E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INCIDENTE" id="B66DFFA7-251A-F7B6-9963-A22FEEF66A42">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E9A11EBD-0C69-858A-4498-2738A9400247</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NUMERO_INCIDENTE" id="50DF1E24-E167-1F3F-86DE-B632148D9717">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>BDF2ED8A-013C-1164-3D43-009BDDAD6B35</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_INCIDENTE" id="9E74DC26-FBC1-C97B-7449-C4B998B0C9B2">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>E8A62D0D-964C-89F8-8093-35525FBD228C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72F2F846-024B-B3D1-259A-26013520DEA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="335D8E29-3EF7-33FB-951F-1191369B1D71">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>FA7B5497-E4BC-0A9A-6D72-04C4A04846E8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2E1FA61D-5B90-E914-9EE1-82EA93261393</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_INICIO" id="4BD599E2-2527-9746-AF47-54B06ED911C0">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7F5DE075-CC25-17B0-5B04-1175824CF89E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_FIN" id="52688F94-6BD3-BB5F-7446-A012D111868A">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>643614FB-9357-45B4-6EC5-301083F460C7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>09BE6C97-E1C4-C855-C139-646029307A2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LUGAR_AFECTADO" id="CD9FB2F6-543B-0E8E-AB4C-5439968808ED">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D61D7074-98CE-FA72-7A7A-16869234AC26</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>37930F9C-3D9B-CC5D-60B2-BDAD9D6A41C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEVERIDAD" id="35F40B1D-354C-04C0-B8F3-957971E28208">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>5B8FCC35-4B70-D4F2-FD62-9E49146AC9F2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F0E2188-5893-B11B-1682-EC809C55B1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REPORTADO_POR" id="1C050875-3259-34E4-447F-347D729203AD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>BDC90F9B-2DAC-FEB7-5382-2C936B0401AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABE9A243-E899-7175-A7DC-47A706B90139" referredColumn="A3F05823-32EA-1A45-9E58-CE44D7305E56"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="2109CEB9-B1E2-4D2A-421B-DF1D7CBBC048">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>02CBD012-CD6B-E5A4-0FB4-C004AC75B61A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;ABIERTO&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAUSA_IDENTIFICADA" id="3C2603AF-D610-47D3-C384-F2061C85E894">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>313B1937-81DB-E729-A85B-646D81B7F49F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>06DA1780-0AE7-164E-5C11-D6D8E5941BDE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCIONES_REALIZADAS" id="E313D8DA-706A-8DE3-62AD-644A1ABEF812">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>58F8AC7B-F9DE-9428-CA8C-08947DF8461A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CD966118-2C70-0654-CBE0-F8159D56F92F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAJEROS_AFECTADOS" id="E55F981D-E993-B7A0-7AE5-70EE355B7E21">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>3195942D-ABBA-7364-BFED-15DBB37671D1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E3E0DCE0-701F-3465-0C6A-01940ABDA088</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="614F958B-E309-F0D8-8200-18FB6FB9D2CA" name="PK_INCIDENTE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D81B4598-4B18-6EB1-A617-80DE3E6A72E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B66DFFA7-251A-F7B6-9963-A22FEEF66A42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="210BEFA3-5F70-28DB-8E4C-F7E26001FCF0" name="UQ_INCIDENTE_NUMERO">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>552AEA2C-6F17-279D-ADDD-DF875D51F3E0</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50DF1E24-E167-1F3F-86DE-B632148D9717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA64BA55-C27E-30D4-8B5E-75EA78884935" name="FK_INCIDENTE_REPORTA">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C050875-3259-34E4-447F-347D729203AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_INCIDENTE_TIPO" directorySegmentName="seg_0" id="29D1EB93-FFC3-F640-BAFC-3CFCCD88FDC9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F639CB79-FE3C-AAA2-B0E1-D404D5A43375</importedID>
+<rule><![CDATA[TIPO_INCIDENTE IN ('FALLA_MECANICA','FALLA_ELECTRICA','FALLA_SENALIZACION', 'EMERGENCIA_MEDICA','ACCIDENTE','PROBLEMA_SEGURIDAD','OBJETO_EN_VIA','INUNDACION','INCENDIO', 'CONGESTION','MANTENIMIENTO_NO_PROGRAMADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_INCIDENTE_SEVERIDAD" directorySegmentName="seg_0" id="70CFC219-3D4D-A61A-8370-F86F1D294E8E">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>2C64372D-434F-833A-2BC5-E7F697C10989</importedID>
+<rule><![CDATA[SEVERIDAD IN ('BAJO','MEDIO','ALTO','CRITICO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_INCIDENTE_ESTADO" directorySegmentName="seg_0" id="152012BB-4B87-BF29-4B29-28784CBA8DFD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>9FB637FA-2805-3EEF-952A-674E75C40128</importedID>
+<rule><![CDATA[ESTADO IN ('ABIERTO','EN_ATENCION','CERRADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_INCIDENTE_FECHAS" directorySegmentName="seg_0" id="20B3C24A-8F68-4CD3-7EFF-A525255E8E46">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>814C75C7-1A9E-9DE6-2B5C-79A31A920C5D</importedID>
+<rule><![CDATA[FECHA_HORA_FIN IS NULL OR FECHA_HORA_FIN >= FECHA_HORA_INICIO]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_INCIDENTE_CERRADO" directorySegmentName="seg_0" id="578C11DE-8EC9-FAC3-AB97-FC5529E8F51B">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>75F04785-04D1-E1CB-5428-5C0415DE61CF</importedID>
+<rule><![CDATA[ESTADO <> 'CERRADO' OR FECHA_HORA_FIN IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_INCIDENTE_PASAJEROS" directorySegmentName="seg_0" id="056DB61C-F801-EFD1-40C5-BDD4BA7A14AC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>F22D422E-1094-8437-39EC-4A2EFE3909FF</importedID>
+<rule><![CDATA[PASAJEROS_AFECTADOS >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

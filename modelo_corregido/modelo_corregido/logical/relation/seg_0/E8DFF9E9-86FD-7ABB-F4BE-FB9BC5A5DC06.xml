@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_HORARIO_RUTA" directorySegmentName="seg_0" id="E8DFF9E9-86FD-7ABB-F4BE-FB9BC5A5DC06">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>F03C5490-F97E-1AB1-D653-D60649179354</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>E00C2EBA-C372-2C3B-F579-84D893353AE6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B51186D-597D-ED64-2846-40727EA76494</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4BE43A7-720A-179B-3941-E29BF61B349A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

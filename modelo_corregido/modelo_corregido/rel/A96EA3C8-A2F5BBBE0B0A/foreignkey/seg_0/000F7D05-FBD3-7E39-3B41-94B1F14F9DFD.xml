@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="000F7D05-FBD3-7E39-3B41-94B1F14F9DFD" containerWithKeyObject="061A8010-1902-0639-0269-452CE6632B33" localFKIndex="3F22E4C7-9127-E8EB-F93F-3DAC203AC4DC" name="FK_RECARGA_TARJETA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C583CBAB-BD47-DA7F-D626-3A3C88A8552B</importedID>
+<referredTableLongName>TARJETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1802593D-2D28-84B3-F5DD-DC56B3949413</referredTableID>
+<keyObject>08A8AB91-6830-8C47-006B-21E322513CBE</keyObject>
+<referredKeyID>08A8AB91-6830-8C47-006B-21E322513CBE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUMERO_TARJETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

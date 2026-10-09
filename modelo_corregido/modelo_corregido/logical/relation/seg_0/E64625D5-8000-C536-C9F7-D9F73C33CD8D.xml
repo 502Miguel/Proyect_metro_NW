@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ORDREP_REPUESTO" directorySegmentName="seg_0" id="E64625D5-8000-C536-C9F7-D9F73C33CD8D">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>220B2F65-FF3B-3852-B92F-3AC4FA39CEF6</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>9C75FC9C-FA25-5B8C-9F2D-352ED67D1EC3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F466DAA-2016-BD95-E3D3-1F165222016E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCE7D383-EE53-DDA1-99D9-B5EB429CEF18</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

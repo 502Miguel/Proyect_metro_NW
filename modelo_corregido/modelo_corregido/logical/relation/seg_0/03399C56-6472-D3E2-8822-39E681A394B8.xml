@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AUSENCIA_APROBADOR" directorySegmentName="seg_0" id="03399C56-6472-D3E2-8822-39E681A394B8">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>BE4A7107-4AAD-48F0-9188-2DA3F5A5476C</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>DB39B462-011B-E300-7531-C6D7D586FFAF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4391E942-E8FC-0428-8C5F-8BDB63028ACA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>39A73422-99FF-4243-1525-94FC3D73B71B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

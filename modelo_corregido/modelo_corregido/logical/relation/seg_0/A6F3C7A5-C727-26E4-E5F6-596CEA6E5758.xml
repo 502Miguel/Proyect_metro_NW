@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RECARGA_ESTACION" directorySegmentName="seg_0" id="A6F3C7A5-C727-26E4-E5F6-596CEA6E5758">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>CEC662BB-157D-18C6-AA39-1488F9175EC5</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>00EB2ABE-CBFE-88AF-8F61-49329FC2A3A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FD9A6BF-A6D9-892A-40A5-EC212AEDFB07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8BA763AE-DE64-D1CE-2DE7-7EF2C0711E4F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB076A36-39FB-5A07-B9D6-90B53E2D2C67" containerWithKeyObject="8F9C22E9-7DED-5A9B-EE0A-42ADB88ACC33" localFKIndex="5BA2B8F0-A2F9-6BAB-F7E6-4AD46438D0C9" name="FK_VIAJEPAS_TARJETA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>28093E8F-FB49-48F9-B923-25435F96E5A9</importedID>
+<referredTableLongName>TARJETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1802593D-2D28-84B3-F5DD-DC56B3949413</referredTableID>
+<keyObject>08A8AB91-6830-8C47-006B-21E322513CBE</keyObject>
+<referredKeyID>08A8AB91-6830-8C47-006B-21E322513CBE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>NUMERO_TARJETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

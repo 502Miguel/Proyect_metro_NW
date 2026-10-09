@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1627EE1-0DB6-0D91-A50D-394EC946838D" containerWithKeyObject="06838F1C-3040-C0EB-1256-BF90E4E72A82" localFKIndex="F94BD4F1-51AF-A1A2-7C0C-B7D3D177A384" name="FK_INCELEM_TREN">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D7E77A74-0878-9557-55FA-B78E1B800660</importedID>
+<referredTableLongName>TREN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2453B8F-11BB-CFCE-6F99-E5B2B6C356E3</referredTableID>
+<keyObject>BD4CECD5-A1AD-3F26-3A1F-5F9A7A8421C4</keyObject>
+<referredKeyID>BD4CECD5-A1AD-3F26-3A1F-5F9A7A8421C4</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_TREN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

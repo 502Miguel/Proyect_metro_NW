@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DETRUTA_RUTA" directorySegmentName="seg_0" id="21FA3216-3A00-9CEC-E63B-8B90182EE56D">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>344F1094-3D82-8796-EF08-E3F87DFA04CB</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>E00C2EBA-C372-2C3B-F579-84D893353AE6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B51186D-597D-ED64-2846-40727EA76494</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E5A7139-CAE9-1622-F4AC-CAE76A1DDF14</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

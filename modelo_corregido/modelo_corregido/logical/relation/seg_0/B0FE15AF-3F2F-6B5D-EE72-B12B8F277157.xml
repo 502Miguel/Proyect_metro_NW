@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TRANSF_ORIGEN" directorySegmentName="seg_0" id="B0FE15AF-3F2F-6B5D-EE72-B12B8F277157">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:59:09 UTC</createdTime>
+<generatorID>9AAFF711-4B70-FC99-4F5B-B22FA8CEBF48</generatorID>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<engineerTo>
+<item key="A96EA3C8-FFBC-FEBA-910E-A2F5BBBE0B0A" value="true"/>
+</engineerTo>
+<sourcePk>F4E23AB9-9023-EB9D-4CE5-3146236AB015</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8857C07D-EBBD-BED2-9B3A-82EDCAA0A890</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B571ECC-9CE4-3F3E-EB0A-5C1F5B83E334</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

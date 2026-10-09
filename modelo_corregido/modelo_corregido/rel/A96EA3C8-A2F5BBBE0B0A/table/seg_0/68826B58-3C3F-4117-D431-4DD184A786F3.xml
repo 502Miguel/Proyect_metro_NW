@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68826B58-3C3F-4117-D431-4DD184A786F3" name="VAGON">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:45 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>1040A0EA-EDC0-4410-22D4-8C4270052B32</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VAGON" id="A9F01FFA-9ABB-B84E-881A-3377BEFD5C1C">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>D0648534-2049-AAD9-5C71-A142C719070C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NUMERO_SERIE" id="8C8A5B79-BE4D-53CF-042C-B2DE556697AC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>8978618F-0746-35B4-6E21-142193CA1E56</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MODELO" id="AC9467B8-B102-D631-7E8D-9CF1F83DB506">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>40B37ECF-1AA2-5756-CC62-A933CD1DD35F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF90ABBB-DBBA-E28C-ACF3-B745E9D036DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F72E1CC-7199-A5A6-ACBF-D2C10EE8C9EE" referredColumn="463051D6-834C-F20A-9195-9D369EBC7D1F"/>
+</associations>
+</Column>
+<Column name="TIPO_VAGON" id="2994F1B0-F74F-F659-BA48-1CE4BF04CB42">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>43EB44EF-1AEC-A7C4-6253-6360A3FD6AAC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDAD_SENTADOS" id="C69BBAC4-2837-0863-0B7C-E6D7E9F959A9">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CA725E68-0F29-CBDA-E392-48805A098505</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDAD_DE_PIE" id="08A60069-0F28-9984-1615-8111B709A7EC">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C164F5DD-F292-83D9-3245-E5318B1934AF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CB39FAD6-51F4-27AE-6E1A-EA83B6733826</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO_FABRICACION" id="3E24A626-6088-740D-55AF-AB52E9D085D8">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C4256492-6636-C8EF-4071-0557447C7B24</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8D5F80E-17B4-7B1E-5D6A-303559000083</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="C6398A61-E75B-420F-31B7-21C1DEB39BC1">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>7501CDEB-E45A-EE32-8BDB-D0A1D861378C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C73CED51-36B9-1588-18BA-6232C5957A5D</domain>
+<defaultValue>&apos;DISPONIBLE&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESIBLE" id="77EBA45A-53FC-15ED-FA36-3473F3818861">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>91393B01-DADC-CFBD-08BB-E4BFE4D35A0B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>89B9E2DA-9349-04B6-72AD-3212FB303BE6</domain>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BCAA50D-2B9C-1CFE-2BCE-0C1ABC89591D" name="PK_VAGON">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>715088E9-1BFC-B716-8D7F-4FF9CCEB943E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9F01FFA-9ABB-B84E-881A-3377BEFD5C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B49FA66B-1354-6906-25ED-595688988B8F" name="UQ_VAGON_SERIE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>635CBB8A-5EB8-EC66-F107-7E5486C74DBA</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C8A5B79-BE4D-53CF-042C-B2DE556697AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EC2FA67-B961-39A3-DBE9-EC04DF9F43A1" name="FK_VAGON_MODELO">
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC9467B8-B102-D631-7E8D-9CF1F83DB506"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_VAGON_TIPO" directorySegmentName="seg_1" id="650A28A9-DD59-39AC-2B92-2476D58D5832">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>55669F56-3236-13A9-2B7D-88730BE00F4D</importedID>
+<rule><![CDATA[TIPO_VAGON IN ('MOTRIZ','REMOLQUE','CABINA')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VAGON_ESTADO" directorySegmentName="seg_1" id="779269CB-5112-E637-E82E-CBDCBC9D2A27">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>93248336-F648-55A9-59BD-ED6C90838BBA</importedID>
+<rule><![CDATA[ESTADO IN ('DISPONIBLE','EN_SERVICIO','EN_MANTENIMIENTO','FUERA_DE_SERVICIO','RETIRADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VAGON_ACCESIBLE" directorySegmentName="seg_1" id="FD79AC37-36F5-F0BE-DD41-784C4EC6C8FD">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>B6118DC4-A436-249E-E3EB-09B7C3E7EDAC</importedID>
+<rule><![CDATA[ACCESIBLE IN ('S','N')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VAGON_CAPACIDAD" directorySegmentName="seg_1" id="8F38DFF2-44E1-2711-3FF8-F501020F8950">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>CD0B908C-8C0C-0AD8-A9F0-22939E0B6045</importedID>
+<rule><![CDATA[CAPACIDAD_SENTADOS >= 0 AND CAPACIDAD_DE_PIE >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_VAGON_ANIO" directorySegmentName="seg_1" id="730D4FBE-03F5-54DD-654E-DB0924902ECA">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>C6C2E824-1573-E07F-EA2D-EB80DC40D762</importedID>
+<rule><![CDATA[ANIO_FABRICACION BETWEEN 1900 AND 2100]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3FC1E26-137E-69DE-0DC5-B12BCB31A469" containerWithKeyObject="F282E907-A02E-595D-7C66-08D4BBA0F1C7" localFKIndex="3FB720B4-E4AA-EC98-5EAF-C9E1BBF69D5E" name="FK_INCVIAJE_VIAJE">
+<sourceDDLFile>01_crear_tablas.sql</sourceDDLFile>
+<createdBy>danie</createdBy>
+<createdTime>2026-10-09 00:57:46 UTC</createdTime>
+<ownerDesignName>modelo_corregido</ownerDesignName>
+<importedID>21EE00DB-430D-314F-8A73-016B42CBF6BE</importedID>
+<referredTableLongName>VIAJE_PROGRAMADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>961EE3E2-662A-54AB-C18B-C09872F828EB</referredTableID>
+<keyObject>EFF42241-8A65-E50A-B9E5-0D90B7A3F7C9</keyObject>
+<referredKeyID>EFF42241-8A65-E50A-B9E5-0D90B7A3F7C9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_VIAJE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
