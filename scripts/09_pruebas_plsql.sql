@@ -78,7 +78,7 @@ PROMPT ================= SP_PROGRAMAR_VIAJE =================
 DECLARE
     v_id NUMBER;
 BEGIN
-    SP_PROGRAMAR_VIAJE('A-DT-EXP-P2-0700', 1, TRUNC(SYSDATE) + 2 + 7/24, 1, 6, p_id_viaje => v_id);
+    SP_PROGRAMAR_VIAJE('A-DT-EXP-P2-2230', 1, TRUNC(SYSDATE) + 2 + 22.5/24, 1, 6, p_id_viaje => v_id);
     DBMS_OUTPUT.PUT_LINE('OK viaje programado con ID ' || v_id);
 EXCEPTION WHEN OTHERS THEN
     DBMS_OUTPUT.PUT_LINE('FALLO inesperado: ' || SQLERRM);
@@ -100,8 +100,8 @@ BEGIN
     probar('tren en mantenimiento',     'PRUEBA-03', 3, TRUNC(SYSDATE) + 2 + 9/24,   16, 9);
     probar('tren inspeccion vencida',   'PRUEBA-04', 3, TRUNC(SYSDATE) + 2 + 9/24,    9, 9);
     probar('certificacion vencida',     'PRUEBA-05', 3, TRUNC(SYSDATE) + 2 + 9/24,    7, 17);
-    probar('conductor ocupado (regla 9)', 'PRUEBA-06', 2, TRUNC(SYSDATE) + 2 + 7.5/24, 2, 6);
-    probar('tren ocupado (regla 8)',    'PRUEBA-07', 2, TRUNC(SYSDATE) + 2 + 7.5/24,  1, 7);
+    probar('conductor ocupado (regla 9)', 'PRUEBA-06', 2, TRUNC(SYSDATE) + 2 + 23/24, 3, 6);
+    probar('tren ocupado (regla 8)',    'PRUEBA-07', 2, TRUNC(SYSDATE) + 2 + 23/24,  1, 7);
 END;
 /
 
