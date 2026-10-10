@@ -21,24 +21,35 @@ La única versión del modelo que debe utilizarse para realizar cambios es `mode
 | Ruta | Contenido |
 |---|---|
 | `modelo_corregido/` | Modelo oficial de Oracle SQL Developer Data Modeler. |
-| `scripts/01_creacion_tablas.sql` | Creación de tablas. |
-| `scripts/02_restricciones.sql` | Restricciones complementarias. |
-| `scripts/03_datos_prueba.sql` | Inserción de datos de prueba. |
-| `scripts/04_consultas_sql.sql` | Consultas SQL de verificación y explotación. |
+| `scripts/00_borrar_tablas.sql` | Borra tablas y secuencias para volver a empezar. |
+| `scripts/01_creacion_tablas.sql` | Entregable 7: creación de las 36 tablas, índices y secuencias de IDs. |
+| `scripts/02_restricciones.sql` | Entregable 8: restricciones PRIMARY KEY, UNIQUE, CHECK y FOREIGN KEY. |
+| `scripts/03_datos_prueba.sql` | Entregable 9: datos de prueba (fechas relativas a la fecha actual). |
+| `scripts/04_consultas_sql.sql` | Entregable 10: las 15 consultas mínimas del enunciado. |
+| `scripts/05_funciones.sql` | Entregable 11: funciones PL/SQL. |
+| `scripts/06_procedimientos.sql` | Entregable 11: procedimientos almacenados. |
+| `scripts/07_triggers.sql` | Entregable 11: triggers. |
+| `scripts/08_vistas.sql` | Entregable 12: vistas para consultas operativas. |
+| `scripts/09_pruebas_plsql.sql` | Entregable 13: pruebas de funciones, procedimientos, triggers y vistas. |
+| `scripts/99_ejecutar_todo.sql` | Ejecuta todos los scripts anteriores en orden. |
 | `NYC_metro_DDL.sql` | Exportación DDL del modelo. |
 | `Documentacion/` | Documentos de los entregables disponibles. |
 | `Diagramas/` | Diagrama relacional general y diagramas modulares. |
 
 ## Orden de ejecución en Oracle SQL Developer
 
-Ejecutar los scripts con **F5 (Run Script)** y en este orden, preferiblemente en un esquema de pruebas vacío:
+Ejecutar con **F5 (Run Script)** en un esquema de pruebas. La forma más simple es abrir `scripts/99_ejecutar_todo.sql` y ejecutarlo: borra todo y corre los demás en este orden:
 
-1. `scripts/01_creacion_tablas.sql`
-2. `scripts/02_restricciones.sql`
-3. `scripts/03_datos_prueba.sql`
-4. `scripts/04_consultas_sql.sql`
-
-El archivo `05_sincronizar_secuencias.sql` **no está incluido en esta copia del repositorio**. Si se incorpora una versión compatible con el modelo oficial, revisar su contenido y ejecutarlo después de cargar los datos de prueba (`03_datos_prueba.sql`) y antes de realizar nuevas inserciones que dependan de secuencias o identidades.
+1. `00_borrar_tablas.sql`
+2. `01_creacion_tablas.sql`
+3. `02_restricciones.sql`
+4. `03_datos_prueba.sql` (al final sincroniza las secuencias de IDs con los datos cargados)
+5. `04_consultas_sql.sql`
+6. `05_funciones.sql`
+7. `06_procedimientos.sql`
+8. `07_triggers.sql`
+9. `08_vistas.sql`
+10. `09_pruebas_plsql.sql` (modifica datos de prueba: para volver al estado inicial, ejecutar de nuevo `99_ejecutar_todo.sql`)
 
 > No ejecutar scripts de creación sobre un esquema que contenga datos que deban conservarse. Validar primero en una base de pruebas. La limpieza de archivos del sistema no sustituye las pruebas de ejecución de Oracle.
 
