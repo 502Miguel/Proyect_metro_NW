@@ -3,7 +3,7 @@
 <createdBy>danie</createdBy>
 <createdTime>2026-10-09 00:43:06 UTC</createdTime>
 <ownerDesignName>modelo_corregido</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
+<shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
 <importDDLFileStamps>
 <importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
