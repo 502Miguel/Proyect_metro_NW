@@ -34,7 +34,7 @@ La única versión del modelo que debe utilizarse para realizar cambios es `mode
 | `scripts/99_ejecutar_todo.sql` | Ejecuta en orden los scripts 00 a 09. |
 | `scripts/10_demostracion.sql` | Entregable 16: llamadas listas para la demostración en vivo (se ejecuta aparte, después de `99`). |
 | `NYC_metro_DDL.sql` | Exportación DDL del modelo (base de `scripts/01` y `scripts/02`). |
-| `Documentacion/Documentacion_Metro_NYC.pdf` | **Documento final** con todos los entregables escritos (y su versión editable `.docx`). |
+| `Documentacion/Documentacion_Metro_NYC.pdf` | **Documento final** con todos los entregables escritos y, como anexos, la salida de las consultas y de las pruebas. |
 | `Documentacion/Evidencias/` | Salida de Oracle de las 15 consultas y de las pruebas de PL/SQL. |
 | `Documentacion/versiones_anteriores/` | Primeras versiones de los puntos 1, 2, 4 y 6 (referencia). |
 | `Diagramas/ER/` | Diagrama entidad-relación general y una subvista por módulo. |
