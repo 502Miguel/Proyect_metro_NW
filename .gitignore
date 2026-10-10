@@ -18,3 +18,8 @@ system*/
 **/*.local
 **/*.git
 **/*.DS_Store
+# Metadatos de macOS / AppleDouble
+.DS_Store
+._*
+**/._*
+__MACOSX/
