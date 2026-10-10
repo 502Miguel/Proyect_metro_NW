@@ -6,20 +6,22 @@
    Los 6 procedimientos que pide el enunciado (SP_PROGRAMAR_VIAJE,
    SP_REGISTRAR_INGRESO, SP_RECARGAR_TARJETA, SP_CREAR_ORDEN_MANTENIMIENTO,
    SP_REGISTRAR_INCIDENTE, SP_CANCELAR_VIAJES_AFECTADOS) mas algunos de apoyo
-   para las funcionalidades de los modulos 4 a 7.
+   para las funcionalidades de los modulos 2 y 4 a 7 (por ejemplo, generar los
+   viajes de un horario con SP_GENERAR_VIAJES).
 
    Codigos de error: -20001 a -20099. Cada procedimiento confirma (COMMIT)
    si todo sale bien y deshace (ROLLBACK) si algo falla.
    ===================================================================== */
 
 -- Secuencia para numerar transacciones (VP-AAAAMMDD-NNNNNN / RC-AAAAMMDD-NNNNNN).
--- Se crea solo si no existe, para poder volver a ejecutar este archivo.
+-- Se crea solo si no existe, para poder volver a ejecutar este archivo. Empieza en
+-- 100001 para no repetir los correlativos de los datos de prueba (03).
 DECLARE
     v_existe NUMBER;
 BEGIN
     SELECT COUNT(*) INTO v_existe FROM USER_SEQUENCES WHERE SEQUENCE_NAME = 'SEQ_TRANSACCION';
     IF v_existe = 0 THEN
-        EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_TRANSACCION START WITH 1 NOCACHE';
+        EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_TRANSACCION START WITH 100001 NOCACHE';
     END IF;
 END;
 /
@@ -609,5 +611,93 @@ BEGIN
     UPDATE CERTIFICACION SET ESTADO = 'VENCIDA'
     WHERE ESTADO = 'VIGENTE' AND FECHA_VENCIMIENTO < TRUNC(SYSDATE);
     COMMIT;
+END;
+/
+
+/* ---------------------------------------------------------------------
+   Apoyo modulo 2: SP_GENERAR_VIAJES
+   Genera los viajes programados de un horario para una fecha, segun su
+   frecuencia. Valida la vigencia, el tipo de dia y que la ruta este
+   operativa. Los viajes quedan PROGRAMADO sin tren ni conductor: se
+   asignan despues con un UPDATE, que validan los triggers (reglas 8 a 11).
+   No duplica las salidas que ya existan, por lo que se puede repetir.
+   --------------------------------------------------------------------- */
+CREATE OR REPLACE PROCEDURE SP_GENERAR_VIAJES (
+    p_id_horario IN  NUMBER,
+    p_fecha      IN  DATE,
+    p_generados  OUT NUMBER)
+IS
+    v_horario HORARIO%ROWTYPE;
+    v_ruta    RUTA%ROWTYPE;
+    v_fecha   DATE := TRUNC(p_fecha);
+    v_dia     VARCHAR2(10);
+    v_inicio  DATE;
+    v_fin     DATE;
+    v_salida  DATE;
+    v_existe  NUMBER;
+    k         PLS_INTEGER := 0;
+BEGIN
+    p_generados := 0;
+    SELECT * INTO v_horario FROM HORARIO WHERE ID_HORARIO = p_id_horario;
+    SELECT * INTO v_ruta FROM RUTA WHERE ID_RUTA = v_horario.ID_RUTA;
+
+    v_dia := CASE TO_CHAR(v_fecha, 'DY', 'NLS_DATE_LANGUAGE=ENGLISH')
+                 WHEN 'MON' THEN 'LUNES'  WHEN 'TUE' THEN 'MARTES' WHEN 'WED' THEN 'MIERCOLES'
+                 WHEN 'THU' THEN 'JUEVES' WHEN 'FRI' THEN 'VIERNES' WHEN 'SAT' THEN 'SABADO'
+                 ELSE 'DOMINGO' END;
+
+    IF v_fecha < TRUNC(SYSDATE) OR v_fecha < v_horario.FECHA_VIGENCIA_DESDE
+       OR v_fecha > NVL(v_horario.FECHA_VIGENCIA_HASTA, v_fecha) THEN
+        RAISE_APPLICATION_ERROR(-20061, 'La fecha ' || TO_CHAR(v_fecha, 'YYYY-MM-DD')
+            || ' es pasada o esta fuera de la vigencia del horario ' || p_id_horario);
+    END IF;
+
+    IF (v_horario.TIPO_DIA = 'LABORAL' AND v_dia IN ('SABADO', 'DOMINGO'))
+       OR (v_horario.TIPO_DIA = 'FIN_SEMANA' AND v_dia NOT IN ('SABADO', 'DOMINGO'))
+       OR (v_horario.TIPO_DIA = 'ESPECIAL' AND v_fecha <> TRUNC(v_horario.FECHA_ESPECIAL))
+       OR (v_horario.DIA_SEMANA IS NOT NULL AND v_horario.DIA_SEMANA <> v_dia) THEN
+        RAISE_APPLICATION_ERROR(-20061, 'El horario ' || p_id_horario || ' (' || v_horario.TIPO_DIA
+            || ') no aplica para el ' || v_dia || ' ' || TO_CHAR(v_fecha, 'YYYY-MM-DD'));
+    END IF;
+
+    IF FN_RUTA_OPERATIVA(v_horario.ID_RUTA, v_fecha) = 'N' THEN
+        RAISE_APPLICATION_ERROR(-20062, 'La ruta ' || v_ruta.CODIGO_RUTA || ' no esta operativa');
+    END IF;
+
+    v_inicio := v_fecha + (TO_NUMBER(SUBSTR(v_horario.HORA_INICIO, 1, 2)) * 60
+                           + TO_NUMBER(SUBSTR(v_horario.HORA_INICIO, 4, 2))) / 1440;
+    v_fin    := v_fecha + (TO_NUMBER(SUBSTR(v_horario.HORA_FIN, 1, 2)) * 60
+                           + TO_NUMBER(SUBSTR(v_horario.HORA_FIN, 4, 2))) / 1440;
+    IF v_fin < v_inicio THEN
+        v_fin := v_fin + 1;                    -- servicio que pasa la medianoche
+    END IF;
+
+    -- Una salida cada FRECUENCIA_MIN minutos (se calcula desde el inicio para no acumular redondeos)
+    v_salida := v_inicio;
+    WHILE v_salida <= v_fin LOOP
+        SELECT COUNT(*) INTO v_existe FROM VIAJE_PROGRAMADO
+        WHERE ID_RUTA = v_horario.ID_RUTA AND SALIDA_PROGRAMADA = v_salida;
+
+        IF v_salida > SYSDATE AND v_existe = 0 THEN
+            INSERT INTO VIAJE_PROGRAMADO (NUMERO_VIAJE, ID_RUTA, ID_HORARIO, FECHA_VIAJE, SALIDA_PROGRAMADA,
+                                          LLEGADA_PROGRAMADA, ESTADO_VIAJE)
+            VALUES (SUBSTR(v_ruta.CODIGO_RUTA, 1, 9) || '-' || TO_CHAR(v_salida, 'MMDD-HH24MI'), v_horario.ID_RUTA,
+                    p_id_horario, TRUNC(v_salida), v_salida,
+                    v_salida + NVL(v_ruta.DURACION_ESTIMADA_MIN, 60) / 1440, 'PROGRAMADO');
+            p_generados := p_generados + 1;
+        END IF;
+
+        k := k + 1;
+        v_salida := v_inicio + k * v_horario.FRECUENCIA_MIN / 1440;
+    END LOOP;
+
+    COMMIT;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        ROLLBACK;
+        RAISE_APPLICATION_ERROR(-20060, 'El horario ' || p_id_horario || ' no existe');
+    WHEN OTHERS THEN
+        ROLLBACK;
+        RAISE;
 END;
 /

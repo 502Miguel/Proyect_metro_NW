@@ -24,16 +24,17 @@ La única versión del modelo que debe utilizarse para realizar cambios es `mode
 | `scripts/00_borrar_tablas.sql` | Borra tablas y secuencias para volver a empezar. |
 | `scripts/01_creacion_tablas.sql` | Entregable 7: creación de las 36 tablas, índices y secuencias de IDs. |
 | `scripts/02_restricciones.sql` | Entregable 8: restricciones PRIMARY KEY, UNIQUE, CHECK y FOREIGN KEY. |
-| `scripts/03_datos_prueba.sql` | Entregable 9: datos de prueba (fechas relativas a la fecha actual). |
+| `scripts/03_datos_prueba.sql` | Entregable 9: 4.414 filas de prueba que simulan 13 días de operación (fechas relativas a la fecha actual). |
 | `scripts/04_consultas_sql.sql` | Entregable 10: las 15 consultas mínimas del enunciado. |
 | `scripts/05_funciones.sql` | Entregable 11: funciones PL/SQL. |
 | `scripts/06_procedimientos.sql` | Entregable 11: procedimientos almacenados. |
 | `scripts/07_triggers.sql` | Entregable 11: triggers. |
 | `scripts/08_vistas.sql` | Entregable 12: vistas para consultas operativas. |
 | `scripts/09_pruebas_plsql.sql` | Entregable 13: pruebas de funciones, procedimientos, triggers y vistas. |
-| `scripts/99_ejecutar_todo.sql` | Ejecuta todos los scripts anteriores en orden. |
+| `scripts/99_ejecutar_todo.sql` | Ejecuta en orden los scripts 00 a 09. |
+| `scripts/10_demostracion.sql` | Entregable 16: llamadas listas para la demostración en vivo (se ejecuta aparte, después de `99`). |
 | `NYC_metro_DDL.sql` | Exportación DDL del modelo (base de `scripts/01` y `scripts/02`). |
-| `Documentacion/Documentacion_Metro_NYC.pdf` | **Documento final** con todos los entregables escritos (y su versión editable `.docx`). |
+| `Documentacion/Documentacion_Metro_NYC.pdf` | **Documento final** con todos los entregables escritos y, como anexos, la salida de las consultas y de las pruebas. |
 | `Documentacion/Evidencias/` | Salida de Oracle de las 15 consultas y de las pruebas de PL/SQL. |
 | `Documentacion/versiones_anteriores/` | Primeras versiones de los puntos 1, 2, 4 y 6 (referencia). |
 | `Diagramas/ER/` | Diagrama entidad-relación general y una subvista por módulo. |
@@ -58,7 +59,7 @@ La única versión del modelo que debe utilizarse para realizar cambios es `mode
 | 13 | Evidencias de pruebas | `scripts/09_pruebas_plsql.sql`, `Documentacion/Evidencias/` y documento final, sección 8 |
 | 14 | Manual breve de uso | Documento final, sección 9 |
 | 15 | Carátula | Documento final, portada |
-| 16 | Presentación y demostración | Pendiente |
+| 16 | Presentación y demostración | Demostración: `scripts/10_demostracion.sql`. Presentación: en preparación |
 
 ## Orden de ejecución en Oracle SQL Developer
 
@@ -74,6 +75,8 @@ Ejecutar con **F5 (Run Script)** en un esquema de pruebas. La forma más simple 
 8. `07_triggers.sql`
 9. `08_vistas.sql`
 10. `09_pruebas_plsql.sql` (modifica datos de prueba: para volver al estado inicial, ejecutar de nuevo `99_ejecutar_todo.sql`)
+
+Las fechas de los datos son relativas al día en que se ejecuta `03`: para una presentación conviene ejecutar `99_ejecutar_todo.sql` ese mismo día. Después se puede abrir `10_demostracion.sql` y ejecutarlo completo (F5) o por bloques para mostrar cada módulo en vivo.
 
 > No ejecutar scripts de creación sobre un esquema que contenga datos que deban conservarse. Validar primero en una base de pruebas. La limpieza de archivos del sistema no sustituye las pruebas de ejecución de Oracle.
 

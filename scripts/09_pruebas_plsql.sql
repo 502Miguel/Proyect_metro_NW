@@ -29,7 +29,7 @@ COLUMN EMPLEADO FORMAT A22
 COLUMN NOMBRE FORMAT A30
 COLUMN ESTACION FORMAT A28
 COLUMN DESTINO FORMAT A28
-COLUMN LUGAR_AFECTADO FORMAT A40
+COLUMN LUGAR_AFECTADO FORMAT A48
 COLUMN TERMINAL_ORIGEN FORMAT A26
 COLUMN TERMINAL_DESTINO FORMAT A26
 COLUMN VALOR_ANTERIOR FORMAT A20
@@ -78,7 +78,7 @@ PROMPT ================= SP_PROGRAMAR_VIAJE =================
 DECLARE
     v_id NUMBER;
 BEGIN
-    SP_PROGRAMAR_VIAJE('A-DT-EXP-P2-0700', 1, TRUNC(SYSDATE) + 2 + 7/24, 1, 6, p_id_viaje => v_id);
+    SP_PROGRAMAR_VIAJE('A-DT-EXP-P2-2230', 1, TRUNC(SYSDATE) + 2 + 22.5/24, 1, 6, p_id_viaje => v_id);
     DBMS_OUTPUT.PUT_LINE('OK viaje programado con ID ' || v_id);
 EXCEPTION WHEN OTHERS THEN
     DBMS_OUTPUT.PUT_LINE('FALLO inesperado: ' || SQLERRM);
@@ -100,10 +100,43 @@ BEGIN
     probar('tren en mantenimiento',     'PRUEBA-03', 3, TRUNC(SYSDATE) + 2 + 9/24,   16, 9);
     probar('tren inspeccion vencida',   'PRUEBA-04', 3, TRUNC(SYSDATE) + 2 + 9/24,    9, 9);
     probar('certificacion vencida',     'PRUEBA-05', 3, TRUNC(SYSDATE) + 2 + 9/24,    7, 17);
-    probar('conductor ocupado (regla 9)', 'PRUEBA-06', 2, TRUNC(SYSDATE) + 2 + 7.5/24, 2, 6);
-    probar('tren ocupado (regla 8)',    'PRUEBA-07', 2, TRUNC(SYSDATE) + 2 + 7.5/24,  1, 7);
+    probar('conductor ocupado (regla 9)', 'PRUEBA-06', 2, TRUNC(SYSDATE) + 2 + 23/24, 3, 6);
+    probar('tren ocupado (regla 8)',    'PRUEBA-07', 2, TRUNC(SYSDATE) + 2 + 23/24,  1, 7);
 END;
 /
+
+PROMPT ================= SP_GENERAR_VIAJES =================
+
+DECLARE
+    v_fecha DATE := TRUNC(SYSDATE) + 7;
+    v_sab   DATE := TRUNC(SYSDATE) + 7;
+    v_n     NUMBER;
+BEGIN
+    -- Primer dia laboral desde dentro de 7 dias (despues de los datos de prueba) y el primer sabado
+    WHILE TO_CHAR(v_fecha, 'DY', 'NLS_DATE_LANGUAGE=ENGLISH') IN ('SAT', 'SUN') LOOP v_fecha := v_fecha + 1; END LOOP;
+    WHILE TO_CHAR(v_sab, 'DY', 'NLS_DATE_LANGUAGE=ENGLISH') <> 'SAT' LOOP v_sab := v_sab + 1; END LOOP;
+
+    -- Horario 23: ruta nocturna A-DT-NOC, dias laborales de 00:00 a 04:59 cada 20 minutos
+    SP_GENERAR_VIAJES(23, v_fecha, v_n);
+    DBMS_OUTPUT.PUT_LINE('OK viajes generados del horario 23 para el ' || TO_CHAR(v_fecha, 'YYYY-MM-DD') || ': ' || v_n);
+    SP_GENERAR_VIAJES(23, v_fecha, v_n);
+    DBMS_OUTPUT.PUT_LINE('OK al repetir no se duplican viajes: ' || v_n || ' nuevos');
+    BEGIN
+        SP_GENERAR_VIAJES(23, v_sab, v_n);
+        DBMS_OUTPUT.PUT_LINE('FALLO: se generaron viajes de dia laboral en sabado');
+    EXCEPTION WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('OK rechazado (horario laboral en sabado): ' || SQLERRM);
+    END;
+EXCEPTION WHEN OTHERS THEN
+    DBMS_OUTPUT.PUT_LINE('FALLO inesperado: ' || SQLERRM);
+END;
+/
+
+SELECT NUMERO_VIAJE, SALIDA_PROGRAMADA, LLEGADA_PROGRAMADA, ID_TREN, ID_CONDUCTOR, ESTADO_VIAJE
+FROM VIAJE_PROGRAMADO
+WHERE ID_HORARIO = 23 AND FECHA_VIAJE > TRUNC(SYSDATE) + 6
+ORDER BY SALIDA_PROGRAMADA
+FETCH FIRST 5 ROWS ONLY;
 
 PROMPT ================= SP_RECARGAR_TARJETA =================
 
@@ -200,8 +233,9 @@ BEGIN
     SELECT ESTADO_OPERATIVO INTO v_estado FROM ESTACION WHERE ID_ESTACION = 6;
     DBMS_OUTPUT.PUT_LINE('OK incidente ' || v_inc || ' registrado; estacion 6 quedo ' || v_estado);
 
-    SP_CANCELAR_VIAJES_AFECTADOS('ESTACION', 6, SYSDATE, NULL, v_inc, v_cancelados);
-    DBMS_OUTPUT.PUT_LINE('OK viajes cancelados por el cierre: ' || v_cancelados);
+    -- Cierre estimado hasta manana a las 09:00
+    SP_CANCELAR_VIAJES_AFECTADOS('ESTACION', 6, SYSDATE, TRUNC(SYSDATE) + 1 + 9/24, v_inc, v_cancelados);
+    DBMS_OUTPUT.PUT_LINE('OK viajes cancelados por el cierre (hasta manana 09:00): ' || v_cancelados);
 
     SP_CERRAR_INCIDENTE(v_inc, 'Objeto caido de una obra cercana', 'Retiro del objeto e inspeccion de la via');
     SELECT ESTADO_OPERATIVO INTO v_estado FROM ESTACION WHERE ID_ESTACION = 6;
