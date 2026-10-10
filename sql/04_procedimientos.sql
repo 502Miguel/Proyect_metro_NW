@@ -12,6 +12,18 @@
    si todo sale bien y deshace (ROLLBACK) si algo falla.
    ===================================================================== */
 
+-- Secuencia para numerar transacciones (VP-AAAAMMDD-NNNNNN / RC-AAAAMMDD-NNNNNN).
+-- Se crea solo si no existe, para poder volver a ejecutar este archivo.
+DECLARE
+    v_existe NUMBER;
+BEGIN
+    SELECT COUNT(*) INTO v_existe FROM USER_SEQUENCES WHERE SEQUENCE_NAME = 'SEQ_TRANSACCION';
+    IF v_existe = 0 THEN
+        EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_TRANSACCION START WITH 1 NOCACHE';
+    END IF;
+END;
+/
+
 /* ---------------------------------------------------------------------
    1. SP_PROGRAMAR_VIAJE
    Programa un viaje validando: ruta operativa, tren disponible (reglas 8
@@ -102,7 +114,7 @@ IS
     v_monto           NUMBER;
     v_cuenta          NUMBER;
     v_motivo          VARCHAR2(200);
-    v_transaccion     VARCHAR2(30) := 'VP-' || TO_CHAR(SYSTIMESTAMP, 'YYMMDDHH24MISSFF6');
+    v_transaccion     VARCHAR2(30) := 'VP-' || TO_CHAR(SYSDATE, 'YYYYMMDD') || '-' || LPAD(SEQ_TRANSACCION.NEXTVAL, 6, '0');
 BEGIN
     SELECT ESTADO_OPERATIVO INTO v_estado_estacion FROM ESTACION WHERE ID_ESTACION = p_id_estacion;
 
@@ -237,7 +249,7 @@ BEGIN
 
     INSERT INTO RECARGA (NUMERO_TRANSACCION, NUMERO_TARJETA, FECHA_HORA, MONTO, MEDIO_PAGO, CANAL,
                          ID_ESTACION, SALDO_ANTERIOR, SALDO_POSTERIOR)
-    VALUES ('RC-' || TO_CHAR(SYSTIMESTAMP, 'YYMMDDHH24MISSFF6'), p_numero_tarjeta, SYSDATE, p_monto, p_medio_pago,
+    VALUES ('RC-' || TO_CHAR(SYSDATE, 'YYYYMMDD') || '-' || LPAD(SEQ_TRANSACCION.NEXTVAL, 6, '0'), p_numero_tarjeta, SYSDATE, p_monto, p_medio_pago,
             p_canal, p_id_estacion, v_saldo, v_saldo + p_monto)
     RETURNING ID_RECARGA INTO p_id_recarga;
 
