@@ -32,9 +32,33 @@ La única versión del modelo que debe utilizarse para realizar cambios es `mode
 | `scripts/08_vistas.sql` | Entregable 12: vistas para consultas operativas. |
 | `scripts/09_pruebas_plsql.sql` | Entregable 13: pruebas de funciones, procedimientos, triggers y vistas. |
 | `scripts/99_ejecutar_todo.sql` | Ejecuta todos los scripts anteriores en orden. |
-| `NYC_metro_DDL.sql` | Exportación DDL del modelo. |
-| `Documentacion/` | Documentos de los entregables disponibles. |
-| `Diagramas/` | Diagrama relacional general y diagramas modulares. |
+| `NYC_metro_DDL.sql` | Exportación DDL del modelo (base de `scripts/01` y `scripts/02`). |
+| `Documentacion/Documentacion_Metro_NYC.pdf` | **Documento final** con todos los entregables escritos (y su versión editable `.docx`). |
+| `Documentacion/Evidencias/` | Salida de Oracle de las 15 consultas y de las pruebas de PL/SQL. |
+| `Documentacion/versiones_anteriores/` | Primeras versiones de los puntos 1, 2, 4 y 6 (referencia). |
+| `Diagramas/ER/` | Diagrama entidad-relación general y una subvista por módulo. |
+| `Diagramas/` | Diagrama relacional general y diagramas relacionales por módulo. |
+
+## Entregables
+
+| # | Entregable | Dónde está |
+|---|---|---|
+| 1 | Documento de análisis del problema | Documento final, sección 1 |
+| 2 | Identificación de entidades y atributos | Documento final, sección 2 |
+| 3 | Modelo entidad-relación | `modelo_corregido/`, `Diagramas/ER/` y documento final, sección 3 |
+| 4 | Diccionario de datos | Documento final, sección 4 (las 301 columnas, generado desde los scripts) |
+| 5 | Transformación al modelo relacional | `Diagramas/` y documento final, sección 5 |
+| 6 | Normalización hasta 3FN | Documento final, sección 6 |
+| 7 | Script de creación en Oracle | `scripts/01_creacion_tablas.sql` |
+| 8 | Restricciones PK, FK, UNIQUE, CHECK y NOT NULL | `scripts/02_restricciones.sql` (NOT NULL en `01`) |
+| 9 | Datos de prueba | `scripts/03_datos_prueba.sql` |
+| 10 | Consultas SQL | `scripts/04_consultas_sql.sql` y `Documentacion/Evidencias/10_consultas_sql.pdf` |
+| 11 | Procedimientos, funciones y triggers | `scripts/05_funciones.sql`, `06_procedimientos.sql`, `07_triggers.sql` |
+| 12 | Vistas | `scripts/08_vistas.sql` |
+| 13 | Evidencias de pruebas | `scripts/09_pruebas_plsql.sql`, `Documentacion/Evidencias/` y documento final, sección 8 |
+| 14 | Manual breve de uso | Documento final, sección 9 |
+| 15 | Carátula | Documento final, portada |
+| 16 | Presentación y demostración | Pendiente |
 
 ## Orden de ejecución en Oracle SQL Developer
 
