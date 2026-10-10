@@ -997,6 +997,11 @@ BEGIN
             END LOOP;
         END IF;
     END LOOP;
+
+    -- Al recrear las secuencias, los triggers de ID quedan INVALID: se recompilan
+    FOR t IN (SELECT OBJECT_NAME FROM USER_OBJECTS WHERE OBJECT_TYPE = 'TRIGGER' AND STATUS = 'INVALID') LOOP
+        EXECUTE IMMEDIATE 'ALTER TRIGGER ' || t.OBJECT_NAME || ' COMPILE';
+    END LOOP;
 END;
 /
 
