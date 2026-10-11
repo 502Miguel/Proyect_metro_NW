@@ -4,7 +4,7 @@ Repositorio académico para el diseño e implementación de una base de datos Or
 
 ## Integrantes
 
-Ernesto Emanuel Santizo Santizo · Miguel Angel Hernandez Cay · Hugo Ismael Taque Franco · Jonathan Francisco Moreira Turcios · Daniel Enrique Cárdenas García · Juan Rodrigo Fuentes Brán
+Ernesto Emanuel Santizo Santizo · Miguel Angel Hernandez Cay · Hugo Ismael Taque Franco · Jhonatan Francisco Moreira Turcios · Daniel Enrique Cárdenas García · Juan Rodrigo Fuentes Brán
 
 **Nota:** Alvaro Fernando Cal Hernández estaba asignado a este grupo, pero no participó en el desarrollo del proyecto ni en sus entregables, y se retiró del grupo.
 
