@@ -63,7 +63,7 @@ La única versión del modelo que debe utilizarse para realizar cambios es `mode
 
 ## Orden de ejecución en Oracle SQL Developer
 
-Ejecutar con **F5 (Run Script)** en un esquema de pruebas. La forma más simple es abrir `scripts/99_ejecutar_todo.sql` y ejecutarlo: borra todo y corre los demás en este orden:
+Ejecutar con **F5** en un esquema de pruebas. La forma más simple es abrir `scripts/99_ejecutar_todo.sql` y ejecutarlo: borra todo y corre los demás en este orden
 
 1. `00_borrar_tablas.sql`
 2. `01_creacion_tablas.sql`
@@ -76,8 +76,6 @@ Ejecutar con **F5 (Run Script)** en un esquema de pruebas. La forma más simple 
 9. `08_vistas.sql`
 10. `09_pruebas_plsql.sql` (modifica datos de prueba: para volver al estado inicial, ejecutar de nuevo `99_ejecutar_todo.sql`)
 
-Las fechas de los datos son relativas al día en que se ejecuta `03`: para una presentación conviene ejecutar `99_ejecutar_todo.sql` ese mismo día. Después se puede abrir `10_demostracion.sql` y ejecutarlo completo (F5) o por bloques para mostrar cada módulo en vivo.
-
 > No ejecutar scripts de creación sobre un esquema que contenga datos que deban conservarse. Validar primero en una base de pruebas. La limpieza de archivos del sistema no sustituye las pruebas de ejecución de Oracle.
 
 ## Trabajo colaborativo con Git
@@ -85,4 +83,4 @@ Las fechas de los datos son relativas al día en que se ejecuta `03`: para una p
 - Mantener `modelo_corregido/` como la única fuente oficial del modelo.
 - Antes de trabajar, revisar los cambios compartidos y sincronizar la rama de trabajo según el flujo del equipo.
 - No agregar archivos temporales, metadatos de macOS (`._*`, `.DS_Store`) ni configuraciones locales del IDE.
-- Después de verificar los cambios, revisar `git status` y confirmar que solo se incluyan archivos del proyecto.
+- Después de verificar los cambios, revisar `git status` y confirmar que solo se incluyan archivos del proyecto
