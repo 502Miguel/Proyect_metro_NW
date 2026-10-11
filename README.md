@@ -2,6 +2,12 @@
 
 Repositorio académico para el diseño e implementación de una base de datos Oracle para una versión simplificada del metro de Nueva York.
 
+## Integrantes
+
+Ernesto Emanuel Santizo Santizo · Miguel Angel Hernandez Cay · Hugo Ismael Taque Franco · Jonathan Francisco Moreira Turcios · Daniel Enrique Cárdenas García · Juan Rodrigo Fuentes Brán
+
+**Nota:** Alvaro Fernando Cal Hernández estaba asignado a este grupo, pero no participó en el desarrollo del proyecto ni en sus entregables, y se retiró del grupo.
+
 ## Fuente oficial del modelo
 
 La única versión del modelo que debe utilizarse para realizar cambios es `modelo_corregido/`. No mantener ni editar modelos paralelos. El DDL exportado está en `NYC_metro_DDL.sql` y los scripts de trabajo están en `scripts/`.
